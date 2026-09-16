@@ -1,0 +1,373 @@
+{
+  "slug": "samsung-internet",
+  "name": "Samsung Browser",
+  "canonicalUrl": "https://browser.samsung.com/",
+  "publisher": "Samsung Electronics",
+  "country": "South Korea",
+  "sourceId": "samsung-internet",
+  "status": "active",
+  "statusNote": "Actively developed for Android and expanded to Windows desktop releases.",
+  "availability": {
+    "macos": {
+      "value": "unavailable",
+      "note": "No macOS build is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows desktop build published by Samsung.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No Linux build is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Preinstalled on Galaxy devices and distributed through app stores.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No iOS build is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "cpuNotes": "Windows build targets 64-bit desktop hardware.",
+    "installMethod": "App store, Galaxy Store, or direct download from Samsung."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary browser built on open-source Chromium",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://developer.samsung.com/internet"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "No end-user telemetry posture is documented on the product pages.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Smart Anti-Tracking blocks cross-site tracking storage access by default.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No current fingerprinting-resistance posture is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "privateWindows": "Secret Mode keeps browsing data out of normal history and can be locked behind biometrics.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unknown",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest version support is not documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Manifest version support is not documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "limitations": "Add-ons are distributed through Samsung's own catalogue rather than the Chrome Web Store, so desktop extension availability does not carry over.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Content-blocker add-ons and Smart Anti-Tracking are supported natively.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Native Split View is documented in the Windows desktop build.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "A built-in side panel is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Reader mode is documented in Samsung's developer overview.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Samsung Account sync covers bookmarks, history, and saved passwords.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "On-device translation is documented on supported Galaxy hardware.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "An install badge, Add to Home, and standalone windows in DeX are documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "samsung-internet"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Galaxy AI surfaces an assistant on supported devices.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Galaxy AI documents page summarisation on supported devices.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "agenticActions": {
+      "value": "built-in",
+      "note": "A Perplexity-powered assistant is documented acting on page, tab, and history context, initially in the US and Korea.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "An ask-anything AI answer surface is documented fetching information from the web.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Generating structured output such as travel plans from the open page is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Compiling and comparing information across open tabs is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unknown",
+      "note": "Voice or image interaction is not documented for the browser itself.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "minimal-or-opt-in",
+      "note": "Ultra Data Saving is documented only on Galaxy devices that carry the feature.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "built-in",
+      "note": "Add-ons are supported on Android through Samsung's catalogue.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Can be set as the Android default browser.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "downloadManager": {
+      "value": "built-in",
+      "note": "A download manager is documented.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "offlineReading": {
+      "value": "built-in",
+      "note": "Saved Pages are documented for offline reading.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "built-in",
+      "note": "Samsung documents placing the menu and URL bar at the top or bottom.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "biometricLock": {
+      "value": "built-in",
+      "note": "Secret Mode can be protected with biometrics.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "built-in",
+      "note": "Video Assistant includes pop-up and multi-window playback.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    },
+    "webPush": {
+      "value": "built-in",
+      "note": "The W3C Push API has been documented since Samsung Internet 4.0.",
+      "sourceRefs": [
+        "samsung-internet"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "samsung-internet"
+    ],
+    "availability": [
+      "samsung-internet"
+    ],
+    "foundation": [
+      "samsung-internet"
+    ],
+    "privacy": [
+      "samsung-internet"
+    ],
+    "extensions": [
+      "samsung-internet"
+    ],
+    "workflow": [
+      "samsung-internet"
+    ],
+    "status": [
+      "samsung-internet"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "samsung-internet",
+      "label": "Samsung Browser official site",
+      "url": "https://browser.samsung.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and privacy feature naming."
+    }
+  ]
+}

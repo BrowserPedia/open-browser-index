@@ -1,0 +1,373 @@
+{
+  "slug": "pale-moon",
+  "name": "Pale Moon",
+  "canonicalUrl": "https://www.palemoon.org/",
+  "publisher": "Moonchild Productions",
+  "country": "Sweden",
+  "sourceId": "pale-moon",
+  "status": "active",
+  "statusNote": "Actively maintained by a small team with continuing security and compatibility releases.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official Intel and Apple silicon builds are published on the project download page.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows builds are published.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux builds are published.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No current Android build is documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No iOS build is documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "cpuNotes": "Builds target 64-bit desktop hardware, with some legacy targets maintained.",
+    "installMethod": "Direct download from the project or distribution packages."
+  },
+  "foundation": {
+    "renderingEngine": "goanna",
+    "javascriptEngine": "SpiderMonkey derivative",
+    "upstreamProject": "Independent fork of pre-Quantum Mozilla code",
+    "codeLicense": "Open source under the Mozilla Public License",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://repo.palemoon.org/MoonchildProductions/Pale-Moon"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unavailable",
+      "note": "The project states the browser contains no telemetry or data gathering.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "available-by-extension",
+      "note": "Blocking is provided through extensions rather than by default.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No hardened fingerprinting posture is documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "privateWindows": "A private browsing mode is available and does not retain local history.",
+    "defaultSearchEngine": "DuckDuckGo",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "partial",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "The browser uses the older XUL extension model rather than WebExtensions manifests.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "manifestV3": {
+      "value": "unavailable",
+      "note": "The browser uses the older XUL extension model rather than WebExtensions manifests.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "limitations": "Extensions use the original XUL model, so modern Firefox WebExtensions are not compatible and the available catalogue is its own.",
+    "nativeContentBlocking": {
+      "value": "available-by-extension",
+      "note": "Content blocking is available through extensions.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "available-by-extension",
+      "note": "Vertical tab layouts are available through extensions.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "tabTrees": {
+      "value": "available-by-extension",
+      "note": "Tab grouping is available through extensions.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Sidebar web panels are supported.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "The project operates its own sync service, separate from Firefox Sync.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "pwa": {
+      "value": "unknown",
+      "note": "Progressive web app behaviour is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "pale-moon"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "setAsDefault": {
+      "value": "not-applicable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "pale-moon"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "pale-moon"
+    ],
+    "availability": [
+      "pale-moon"
+    ],
+    "foundation": [
+      "pale-moon"
+    ],
+    "privacy": [
+      "pale-moon"
+    ],
+    "extensions": [
+      "pale-moon"
+    ],
+    "workflow": [
+      "pale-moon"
+    ],
+    "status": [
+      "pale-moon"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "pale-moon",
+      "label": "Pale Moon official site",
+      "url": "https://www.palemoon.org/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, engine identity, and extension model."
+    }
+  ]
+}

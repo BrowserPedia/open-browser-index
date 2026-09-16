@@ -1,0 +1,373 @@
+{
+  "slug": "firefox-focus",
+  "name": "Firefox Focus",
+  "canonicalUrl": "https://www.firefox.com/en-US/mobile/focus/",
+  "publisher": "Mozilla",
+  "country": "United States",
+  "sourceId": "firefox-focus",
+  "status": "active",
+  "statusNote": "Actively maintained with ongoing mobile releases.",
+  "availability": {
+    "macos": {
+      "value": "unavailable",
+      "note": "No macOS build is documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "windows": {
+      "value": "unavailable",
+      "note": "No Windows build is documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No Linux build is documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Distributed through Google Play.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Distributed through the App Store.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "cpuNotes": "No specific CPU requirements are documented.",
+    "installMethod": "Platform app store."
+  },
+  "foundation": {
+    "renderingEngine": "gecko",
+    "javascriptEngine": "SpiderMonkey",
+    "upstreamProject": "Mozilla Firefox",
+    "codeLicense": "Open source under the Mozilla Public License",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/mozilla-firefox/firefox"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "minimal-or-opt-in",
+      "note": "Mozilla documents limited data collection with user controls.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Tracker blocking is enabled by default.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Known fingerprinting scripts are blocked by default.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "privateWindows": "The whole browser behaves as a private session; a single action erases history, cookies, and passwords.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "No extension platform is documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "manifestV3": {
+      "value": "unavailable",
+      "note": "No extension platform is documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "limitations": "The product deliberately omits an extension platform; blocking is built in instead.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Ad and tracker blocking are built in and on by default.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "profiles": {
+      "value": "unavailable",
+      "note": "No profile system is provided.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "sidebar": {
+      "value": "unavailable",
+      "note": "No documented native sidebar.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "readerMode": {
+      "value": "unavailable",
+      "note": "No reader view is provided.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "sync": {
+      "value": "unavailable",
+      "note": "No account sync is provided.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation is not documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "pwa": {
+      "value": "unknown",
+      "note": "Progressive web app behaviour is not documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    }
+  },
+  "formFactor": "mobile",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; the shipping iOS build renders with WebKit rather than Gecko.",
+    "sourceRefs": [
+      "firefox-focus"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unavailable",
+      "note": "Focus is deliberately not an extensions browser.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Mozilla documents making Focus the default browser on both Android and iOS.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "built-in",
+      "note": "A desktop view control is documented in Focus help.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "firefox-focus"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "firefox-focus"
+    ],
+    "availability": [
+      "firefox-focus"
+    ],
+    "foundation": [
+      "firefox-focus"
+    ],
+    "privacy": [
+      "firefox-focus"
+    ],
+    "extensions": [
+      "firefox-focus"
+    ],
+    "workflow": [
+      "firefox-focus"
+    ],
+    "status": [
+      "firefox-focus"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "firefox-focus",
+      "label": "Firefox Focus official product page",
+      "url": "https://www.firefox.com/en-US/mobile/focus/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and privacy defaults."
+    }
+  ]
+}

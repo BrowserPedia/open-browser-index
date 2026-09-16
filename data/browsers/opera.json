@@ -1,0 +1,373 @@
+{
+  "slug": "opera",
+  "name": "Opera",
+  "canonicalUrl": "https://www.opera.com/",
+  "publisher": "Opera Software",
+  "country": "Norway",
+  "sourceId": "opera",
+  "status": "active",
+  "statusNote": "Actively developed consumer browser.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS build.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows build.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux build.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Official iOS app.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "cpuNotes": "Desktop support follows current Opera package requirements.",
+    "installMethod": "Official installer, package repository, or app store."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Chromium open-source base with Opera proprietary UI and services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/operasoftware"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Opera describes analytics and personalization controls in its privacy policy.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Opera includes an optional built-in ad blocker.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No broad hardened fingerprinting posture is claimed here.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "privateWindows": "Private windows remove local browsing records but do not anonymize traffic.",
+    "defaultSearchEngine": "Google",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Opera documents a browser VPN feature with scope and regional limitations.",
+      "sourceRefs": [
+        "opera"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "available-by-extension",
+      "note": "Chromium compatibility depends on the release channel.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Manifest V3 is supported.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "limitations": "Chrome extension compatibility is subject to Chromium and Opera-specific behavior.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "The ad blocker is a native optional feature.",
+      "sourceRefs": [
+        "opera"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "A native vertical tab strip shipped in Opera One in mid-2026.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Workspaces are a first-party Opera feature for organising tabs by task.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Native Split Screen supports two to four pages side by side.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Opera's sidebar integrates messaging and browser tools.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Reader mode is documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "commandPalette": {
+      "value": "built-in",
+      "note": "A native command line covers browser commands and tab actions.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Opera account sync supports selected browser data.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Translation is available through browser features or services.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "opera"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; no non-WebKit build ships in the App Store.",
+    "sourceRefs": [
+      "opera"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Opera AI provides a built-in assistant surface.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Opera AI documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "agenticActions": {
+      "value": "unknown",
+      "note": "Agentic actions are not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Opera AI documents AI-assisted answers in search or the address bar.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Opera AI documents text or image generation.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "modelChoice": {
+      "value": "built-in",
+      "note": "Opera AI documents a choice of models or local model support.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unknown",
+      "note": "AI privacy controls are not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Opera AI documents awareness of multiple tabs or history.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unknown",
+      "note": "Voice or image interaction is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "opera"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "opera"
+    ],
+    "availability": [
+      "opera"
+    ],
+    "foundation": [
+      "opera"
+    ],
+    "privacy": [
+      "opera"
+    ],
+    "extensions": [
+      "opera"
+    ],
+    "workflow": [
+      "opera"
+    ],
+    "status": [
+      "opera"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "opera",
+      "label": "Opera official browser page",
+      "url": "https://www.opera.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product and platform scope."
+    }
+  ]
+}

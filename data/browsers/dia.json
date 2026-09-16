@@ -1,0 +1,373 @@
+{
+  "slug": "dia",
+  "name": "Dia",
+  "canonicalUrl": "https://www.diabrowser.com/",
+  "publisher": "The Browser Company",
+  "country": "United States",
+  "sourceId": "dia",
+  "status": "active",
+  "statusNote": "Generally available for macOS with frequent releases and paid plans; Windows support is in progress.",
+  "availability": {
+    "macos": {
+      "value": "partial",
+      "note": "Generally available for Apple silicon Macs on macOS 14 or later; Intel Macs are not supported.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "windows": {
+      "value": "unknown",
+      "note": "No stable public Windows support is established here.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No official Linux release is listed.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No official Android release is listed.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No official iOS release is listed.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "cpuNotes": "Desktop builds target Apple silicon hardware.",
+    "installMethod": "Official product download."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Chromium base with proprietary Dia interface and AI services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/thebrowsercompany"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "AI products can process prompts and page context; consult Dia's current privacy documentation.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unknown",
+      "note": "No stable blocker policy is asserted for the experimental product.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No hardened fingerprinting posture is documented here.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "privateWindows": "Private mode, where available, should not be treated as protection from AI-service processing or network observation.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No general browser VPN is included.",
+      "sourceRefs": [
+        "dia"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "partial",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "Dia's release notes state Manifest V2 extensions are disabled.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Chromium-based Manifest V3 support is expected, subject to release behavior.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "limitations": "Do not migrate a critical extension workflow without testing the current build.",
+    "nativeContentBlocking": {
+      "value": "unknown",
+      "note": "No stable native blocking commitment is asserted.",
+      "sourceRefs": [
+        "dia"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Dia uses a redesigned, sidebar-oriented tab workflow.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "workspaces": {
+      "value": "unknown",
+      "note": "Workspace behavior is subject to the current product scope.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles with quick switching are documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Split panes are documented, opened from the View menu or a shortcut.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "The browsing interface is sidebar-oriented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "readerMode": {
+      "value": "available-by-extension",
+      "note": "Reader mode is available through an extension.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "The address-bar AI surface is not a command palette for browser actions.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "sync": {
+      "value": "minimal-or-opt-in",
+      "note": "Opt-in sync is documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "dia"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "dia"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Dia provides a built-in assistant surface.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Dia documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "agenticActions": {
+      "value": "unknown",
+      "note": "Dia documents Skills and agent systems but does not document the assistant clicking or filling forms on a page.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Dia documents AI-assisted answers in search or the address bar.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Dia documents text or image generation.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "modelChoice": {
+      "value": "unknown",
+      "note": "Model selection is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "Dia documents retention, training or kill-switch controls.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Dia documents awareness of multiple tabs or history.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unknown",
+      "note": "Voice or image interaction is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "dia"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "dia"
+    ],
+    "availability": [
+      "dia"
+    ],
+    "foundation": [
+      "dia"
+    ],
+    "privacy": [
+      "dia"
+    ],
+    "extensions": [
+      "dia"
+    ],
+    "workflow": [
+      "dia"
+    ],
+    "status": [
+      "dia"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "dia",
+      "label": "Dia official product page",
+      "url": "https://www.diabrowser.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product availability and workflow scope."
+    }
+  ]
+}

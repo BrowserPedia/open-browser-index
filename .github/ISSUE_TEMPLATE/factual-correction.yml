@@ -1,0 +1,52 @@
+name: Factual correction
+description: Report a factual claim that needs correction or re-verification.
+title: "[Correction] "
+labels: ["factual-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide public evidence. Recommendations, rankings, and site/editorial requests do not belong in this repository.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser record
+      description: The exact data/browsers/*.json file or slug.
+      placeholder: firefox
+    validations:
+      required: true
+  - type: input
+    id: claim
+    attributes:
+      label: Claim or JSON path
+      placeholder: privacy.trackerBlocking.value
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: State the factual replacement and any platform, version, region, or plan scope.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Include public URLs and quote or describe the relevant passage.
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: Date checked
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: conflict
+    attributes:
+      label: Conflicts of interest
+      description: Disclose employment, sponsorship, affiliate, review, or other relationships with the vendor. Write “None” if applicable.
+    validations:
+      required: true

@@ -1,0 +1,373 @@
+{
+  "slug": "kiwi",
+  "name": "Kiwi Browser",
+  "canonicalUrl": "https://github.com/kiwibrowser/src.next",
+  "publisher": "Geometry OU",
+  "country": "Estonia",
+  "sourceId": "kiwi",
+  "status": "discontinued",
+  "statusNote": "The original developer announced the end of active maintenance; community continuations exist but are not the original product.",
+  "availability": {
+    "macos": {
+      "value": "unavailable",
+      "note": "No desktop build was published.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "windows": {
+      "value": "unavailable",
+      "note": "No desktop build was published.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No desktop build was published.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "android": {
+      "value": "partial",
+      "note": "Builds remain installable but are no longer actively maintained.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No iOS build was published.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "cpuNotes": "Android builds targeted common mobile architectures.",
+    "installMethod": "Direct download of the final APK from the project repository; the Play Store listing was removed."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Open source under Chromium's licensing",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/kiwibrowser/src.next"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "No current telemetry posture is documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "A native ad-blocking and tracking-protection toggle shipped in the browser, extendable with desktop extensions.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting posture is documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "privateWindows": "An incognito mode was available, inherited from Chromium.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN was documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "built-in",
+      "note": "Manifest V2 extensions were supported, which was the browser's defining capability.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Manifest V3 support was not clearly documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "limitations": "Extension support was the product's reason to exist, but it depends on a Chromium base that is no longer being updated by the original maintainer.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "A native ad and tracker filter was included alongside extension support.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "sidebar": {
+      "value": "unavailable",
+      "note": "No documented native sidebar.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "sync": {
+      "value": "unknown",
+      "note": "Sync behaviour is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation behaviour is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    }
+  },
+  "formFactor": "mobile",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build was published.",
+    "sourceRefs": [
+      "kiwi"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "built-in",
+      "note": "Desktop Chrome extensions ran on Android, which almost no mainstream mobile browser offered.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Could be set as the Android default browser.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "built-in",
+      "note": "A desktop-site toggle was available.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "kiwi"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "kiwi"
+    ],
+    "availability": [
+      "kiwi"
+    ],
+    "foundation": [
+      "kiwi"
+    ],
+    "privacy": [
+      "kiwi"
+    ],
+    "extensions": [
+      "kiwi"
+    ],
+    "workflow": [
+      "kiwi"
+    ],
+    "status": [
+      "kiwi"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "kiwi",
+      "label": "Kiwi Browser project repository",
+      "url": "https://github.com/kiwibrowser/src.next",
+      "verifiedAt": "2026-09-16",
+      "note": "Project scope, Android extension support, and maintenance status."
+    }
+  ]
+}

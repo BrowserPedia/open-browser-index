@@ -1,0 +1,373 @@
+{
+  "slug": "safari",
+  "name": "Safari",
+  "canonicalUrl": "https://www.apple.com/safari/",
+  "publisher": "Apple",
+  "country": "United States",
+  "sourceId": "safari",
+  "status": "active",
+  "statusNote": "Actively developed as Apple's platform browser.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Included with macOS.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "windows": {
+      "value": "unavailable",
+      "note": "Apple no longer distributes current Safari for Windows.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No current official Linux build.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No official Android app.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Included with iOS; all iOS browsers use WebKit under Apple's platform rules.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "cpuNotes": "Current releases follow supported Apple hardware and OS versions.",
+    "installMethod": "Included with Apple operating systems."
+  },
+  "foundation": {
+    "renderingEngine": "webkit",
+    "javascriptEngine": "JavaScriptCore",
+    "upstreamProject": "WebKit",
+    "codeLicense": "WebKit open source with Apple proprietary browser and platform integration",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/WebKit/WebKit"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Apple documents privacy-preserving product analytics and settings separately from website protection.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Intelligent Tracking Prevention limits cross-site tracking.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Safari documents fingerprinting defenses such as reducing identifying configuration detail.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "privateWindows": "Private Browsing limits local history and adds privacy protections; it is not anonymity.",
+    "defaultSearchEngine": "Google",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No general VPN is included in Safari itself.",
+      "sourceRefs": [
+        "safari"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Safari does not use Chrome's extension distribution contract.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "manifestV3": {
+      "value": "available-by-extension",
+      "note": "Safari Web Extensions support selected Chromium-compatible APIs with platform differences.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "limitations": "Safari extensions are distributed through the App Store and have WebKit-specific API and entitlement constraints.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Safari supports native content-blocking rule lists and tracking prevention.",
+      "sourceRefs": [
+        "safari"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "The sidebar lists tab groups vertically, but the tab strip itself has no vertical layout mode.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Tab Groups provide a workspace-like grouping model.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "macOS Safari has no in-window page tiling; iPad Split View is an OS windowing feature, not a Safari tab tile.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "The sidebar provides tab groups, bookmarks, and reading list.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Safari Reader is built in.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "iCloud sync covers supported Safari data.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Safari offers translation for supported pages and languages.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "safari"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "Safari is Apple's own browser and is not subject to the third-party engine rule; it is WebKit by definition.",
+    "sourceRefs": [
+      "safari"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Apple Intelligence provides a built-in assistant surface.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Apple Intelligence documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "agenticActions": {
+      "value": "built-in",
+      "note": "Apple Intelligence documents multi-step actions taken on the user's behalf.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "An AI answer engine is not documented.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Apple Intelligence documents text or image generation.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "Model selection is not documented.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "Apple Intelligence documents retention, training or kill-switch controls.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Apple Intelligence documents awareness of multiple tabs or history.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Apple Intelligence documents voice or image interaction.",
+      "sourceRefs": [
+        "safari"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "built-in",
+      "note": "Safari extensions install on iOS and are managed in Settings.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "setAsDefault": {
+      "value": "not-applicable",
+      "note": "Safari is the platform default; the setting lives in iOS rather than in the browser.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "built-in",
+      "note": "Request Desktop Website is documented in the iPhone user guide.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "downloadManager": {
+      "value": "minimal-or-opt-in",
+      "note": "A downloads location setting is documented; no separate manager screen is named.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "offlineReading": {
+      "value": "built-in",
+      "note": "Reading List items can be saved automatically for offline reading.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "biometricLock": {
+      "value": "built-in",
+      "note": "Private Browsing can require Face ID, Touch ID, or the passcode to unlock.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "safari"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "safari"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "safari"
+    ],
+    "availability": [
+      "safari"
+    ],
+    "foundation": [
+      "safari"
+    ],
+    "privacy": [
+      "safari"
+    ],
+    "extensions": [
+      "safari"
+    ],
+    "workflow": [
+      "safari"
+    ],
+    "status": [
+      "safari"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "safari",
+      "label": "Apple Safari product page",
+      "url": "https://www.apple.com/safari/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product and platform scope."
+    }
+  ]
+}

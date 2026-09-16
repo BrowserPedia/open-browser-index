@@ -1,0 +1,373 @@
+{
+  "slug": "strawberry",
+  "name": "Strawberry",
+  "canonicalUrl": "https://strawberrybrowser.com/",
+  "publisher": "Strawberry",
+  "country": "Sweden",
+  "sourceId": "strawberry",
+  "status": "experimental",
+  "statusNote": "In open beta with a credit-based commercial model and rapidly changing capabilities.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by the vendor.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows build published by the vendor.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No Linux build is documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "cpuNotes": "Desktop builds target current 64-bit hardware.",
+    "installMethod": "Direct download from the vendor with an account."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary",
+    "releaseChannel": "beta",
+    "sourceRepository": "https://strawberrybrowser.com/"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "The privacy policy documents reliability, feature-usage, device, and AI task telemetry.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unknown",
+      "note": "Default blocking behaviour is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting posture is documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "privateWindows": "The policy states that in incognito or private mode Activity Memory does not capture page content unless the user confirms capture for that session.",
+    "defaultSearchEngine": "Google, changeable in settings",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "partial",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "limitations": "Release notes state most Chrome Web Store extensions work out of the box; no compatibility list is published.",
+    "nativeContentBlocking": {
+      "value": "unknown",
+      "note": "Native blocking behaviour is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Per-profile tab-bar orientation, including vertical, shipped in beta releases.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Release notes ship a first version of Workspaces.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Split tabs, a split-screen picker, and drag-to-split are documented in release notes.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "An assistant surface is central to the interface.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "An account is required, and preferences and companion chats sync across devices.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "strawberry"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Persistent assistants are the product.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "summarization": {
+      "value": "unknown",
+      "note": "Summarisation scope is not clearly documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "agenticActions": {
+      "value": "built-in",
+      "note": "Assistants are documented as acting across logged-in sessions.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Companions are documented drafting messages and generating documents, decks, and diagrams.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unknown",
+      "note": "Retention and training controls are not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Assistants operate across tabs and sessions.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Meeting recording and voice dictation in chat are documented in beta releases.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "setAsDefault": {
+      "value": "not-applicable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "strawberry"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "strawberry"
+    ],
+    "availability": [
+      "strawberry"
+    ],
+    "foundation": [
+      "strawberry"
+    ],
+    "privacy": [
+      "strawberry"
+    ],
+    "extensions": [
+      "strawberry"
+    ],
+    "workflow": [
+      "strawberry"
+    ],
+    "status": [
+      "strawberry"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "strawberry",
+      "label": "Strawberry browser official site",
+      "url": "https://strawberrybrowser.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope and agentic feature naming."
+    }
+  ]
+}

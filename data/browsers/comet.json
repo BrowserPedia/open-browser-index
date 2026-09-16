@@ -1,0 +1,373 @@
+{
+  "slug": "comet",
+  "name": "Comet",
+  "canonicalUrl": "https://www.perplexity.ai/comet",
+  "publisher": "Perplexity AI",
+  "country": "United States",
+  "sourceId": "comet",
+  "status": "active",
+  "statusNote": "Actively developed, with desktop and mobile releases and rapidly changing capabilities.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by Perplexity.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows build published by Perplexity.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "linux": {
+      "value": "unknown",
+      "note": "Perplexity's install documentation covers macOS and Windows only.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Distributed through Google Play.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Distributed through the App Store.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "cpuNotes": "Desktop builds target current 64-bit hardware.",
+    "installMethod": "Direct download from Perplexity or platform app store."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary browser built on open-source Chromium",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://www.perplexity.ai/comet"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Crash and performance diagnostics are documented as stripped of identifiers, with an opt-out under Privacy and security.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unknown",
+      "note": "An ad blocker and tracker-blocking settings are documented; whether tracker blocking is on by default is not stated.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting-resistance posture is documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "privateWindows": "Closing incognito is documented as dropping history, cookies, form fills, and passwords, and as keeping the assistant from indexing that activity.",
+    "defaultSearchEngine": "Perplexity (Google on iOS)",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Chromium extension support is documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest V2 support is not documented separately from Chromium.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "limitations": "Extension support follows Chromium, but the vendor does not document manifest policy separately.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "A built-in ad blocker is documented, with tracker and ad blocking adjustable in settings.",
+      "sourceRefs": [
+        "comet"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "A split view mode is documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "An assistant sidebar is a core surface.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Passphrase-encrypted sync is documented for bookmarks, passwords, autofill, themes, history, extensions, and tabs.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Page translation is documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "comet"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; the shipping iOS build renders with WebKit.",
+    "sourceRefs": [
+      "comet"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "The assistant is the browser's primary surface.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Page and multi-tab summarisation are documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "agenticActions": {
+      "value": "built-in",
+      "note": "The assistant is documented as carrying out multi-step tasks in the page.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Perplexity's answer engine is the default search path.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Drafting and generation are documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "modelChoice": {
+      "value": "unknown",
+      "note": "Model selection is not clearly documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unknown",
+      "note": "Retention and training controls are not clearly documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "The assistant can act across open tabs.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Voice Mode is documented on desktop, Android, and iOS.",
+      "sourceRefs": [
+        "comet"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Can be set as the platform default browser.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "comet"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "comet"
+    ],
+    "availability": [
+      "comet"
+    ],
+    "foundation": [
+      "comet"
+    ],
+    "privacy": [
+      "comet"
+    ],
+    "extensions": [
+      "comet"
+    ],
+    "workflow": [
+      "comet"
+    ],
+    "status": [
+      "comet"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "comet",
+      "label": "Perplexity Comet official page",
+      "url": "https://www.perplexity.ai/comet",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and assistant feature naming."
+    }
+  ]
+}

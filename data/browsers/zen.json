@@ -1,0 +1,373 @@
+{
+  "slug": "zen",
+  "name": "Zen Browser",
+  "canonicalUrl": "https://zen-browser.app/",
+  "publisher": "Zen Browser contributors",
+  "country": "International",
+  "sourceId": "zen",
+  "status": "active",
+  "statusNote": "Actively developed and distributed as a beta with a fast-moving release process; verify current build support.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS builds are published.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows builds are published.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux builds are published.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No official Android browser is listed.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No official iOS browser is listed.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "cpuNotes": "Desktop architecture support follows the current download page.",
+    "installMethod": "Official desktop download."
+  },
+  "foundation": {
+    "renderingEngine": "gecko",
+    "javascriptEngine": "SpiderMonkey",
+    "upstreamProject": "Mozilla Firefox",
+    "codeLicense": "Open source Firefox-derived project",
+    "releaseChannel": "rolling",
+    "sourceRepository": "https://github.com/zen-browser/desktop"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "Zen's current telemetry posture should be checked against its project policy before deployment.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Firefox-derived tracking protection is enabled by default.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Firefox-derived protections are available, with Zen-specific scope not independently claimed.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "privateWindows": "Private windows follow Firefox behavior and do not provide anonymity.",
+    "defaultSearchEngine": "Google",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No browser VPN is included.",
+      "sourceRefs": [
+        "zen"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "supported",
+    "manifestV2": {
+      "value": "built-in",
+      "note": "Zen follows Firefox WebExtensions behavior.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Firefox-derived Manifest V3 support is available with compatibility differences.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "limitations": "Firefox Add-ons are the supported ecosystem; Chrome Web Store installation is not the supported path.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Firefox-derived tracking protection is native.",
+      "sourceRefs": [
+        "zen"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Vertical tabs are central to Zen's compact layout.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "tabTrees": {
+      "value": "built-in",
+      "note": "Zen's tab organization supports nested or grouped workflows.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Workspaces are a documented Zen workflow feature.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Firefox profiles remain available for separated contexts.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Zen documents a Split View that shows up to four tabs side by side.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "The compact sidebar hosts tabs and controls.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Firefox Reader View is available.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "commandPalette": {
+      "value": "built-in",
+      "note": "Zen ships a native command bar with global actions.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Firefox Sync compatibility is available.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Firefox-derived translation is available for supported languages.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "zen"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "zen"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "zen"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "zen"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "zen"
+    ],
+    "availability": [
+      "zen"
+    ],
+    "foundation": [
+      "zen"
+    ],
+    "privacy": [
+      "zen"
+    ],
+    "extensions": [
+      "zen"
+    ],
+    "workflow": [
+      "zen"
+    ],
+    "status": [
+      "zen"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "zen",
+      "label": "Zen Browser official site",
+      "url": "https://zen-browser.app/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product, release channel, and platform scope."
+    }
+  ]
+}

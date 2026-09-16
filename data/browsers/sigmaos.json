@@ -1,0 +1,373 @@
+{
+  "slug": "sigmaos",
+  "name": "SigmaOS",
+  "canonicalUrl": "https://sigmaos.com/",
+  "publisher": "SigmaOS",
+  "country": "United Kingdom",
+  "sourceId": "sigmaos",
+  "status": "active",
+  "statusNote": "Actively developed for macOS with a small team and a freemium model.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by the vendor.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "windows": {
+      "value": "unavailable",
+      "note": "SigmaOS lists Windows as coming soon; no build is published.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No Linux build is documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No Android build is documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "SigmaOS lists iOS as coming soon; no build is published.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "cpuNotes": "Builds target current Apple hardware.",
+    "installMethod": "Direct download from the vendor."
+  },
+  "foundation": {
+    "renderingEngine": "webkit",
+    "javascriptEngine": "JavaScriptCore",
+    "upstreamProject": "WebKit",
+    "codeLicense": "Proprietary browser built on WebKit",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://sigmaos.com/"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "minimal-or-opt-in",
+      "note": "The privacy policy documents account and engagement data, and states web activity stays local unless the user consents.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "The vendor cites WebKit Intelligent Tracking Prevention as part of the browser.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting posture is documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "privateWindows": "A Private Workspace is documented as storing no history and deleting its cookies automatically.",
+    "defaultSearchEngine": "Configurable between DuckDuckGo, Ecosia, You.com, Bing, or a custom engine",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "partial",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "limitations": "Some Chromium extensions are claimed to work on a WebKit base, so compatibility should be tested per extension.",
+    "nativeContentBlocking": {
+      "value": "unknown",
+      "note": "Pricing copy lists a built-in ad blocker while the documentation routes ad blocking through extensions; the default is not stated.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Pages are listed vertically in the left sidebar in place of a tab strip.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "tabTrees": {
+      "value": "built-in",
+      "note": "Pages can be indented and outdented into subpages.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Workspaces are the organising concept.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Side-by-side viewing is documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "A sidebar replaces the conventional tab strip.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "commandPalette": {
+      "value": "built-in",
+      "note": "Lazy Search and a commands filter are documented keyboard entry points.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "sync": {
+      "value": "minimal-or-opt-in",
+      "note": "Cloud sync is documented as deactivated by default and encrypted when enabled.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is published.",
+    "sourceRefs": [
+      "sigmaos"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "An assistant (Airis) is documented as part of the product.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "summarization": {
+      "value": "unknown",
+      "note": "Summarisation scope is not clearly documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Airis Look it up searches the web and returns synthesized answers.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Airis rewrites text and generates outlines and summaries in-page.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "modelChoice": {
+      "value": "minimal-or-opt-in",
+      "note": "Additional models are documented on paid plans.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "sigmaos"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "sigmaos"
+    ],
+    "availability": [
+      "sigmaos"
+    ],
+    "foundation": [
+      "sigmaos"
+    ],
+    "privacy": [
+      "sigmaos"
+    ],
+    "extensions": [
+      "sigmaos"
+    ],
+    "workflow": [
+      "sigmaos"
+    ],
+    "status": [
+      "sigmaos"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "sigmaos",
+      "label": "SigmaOS official site",
+      "url": "https://sigmaos.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and workspace model."
+    }
+  ]
+}

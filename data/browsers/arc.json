@@ -1,0 +1,373 @@
+{
+  "slug": "arc",
+  "name": "Arc",
+  "canonicalUrl": "https://arc.net/",
+  "publisher": "The Browser Company",
+  "country": "United States",
+  "sourceId": "arc",
+  "status": "maintenance-mode",
+  "statusNote": "The Browser Company states on the Arc download page that Arc receives Chromium updates only and directs users to Dia for active security patches; builds remain downloadable.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS build.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows build.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No official Linux desktop release.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Arc Search is available on Android, but is a distinct mobile product experience.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Arc Search is available on iOS, but is a distinct mobile product experience.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "cpuNotes": "Check current help documentation for supported desktop architecture.",
+    "installMethod": "Official desktop download or mobile app store."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Chromium base with proprietary Arc interface and services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/thebrowsercompany"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Arc documents account, diagnostics, and product data in its privacy materials.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Arc includes browser-level blocking controls, with scope set by product defaults.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No hardened anti-fingerprinting posture is claimed here.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "privateWindows": "Private browsing limits local data but does not create anonymity.",
+    "defaultSearchEngine": "Google",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No general browser VPN is included.",
+      "sourceRefs": [
+        "arc"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "available-by-extension",
+      "note": "Chromium extension support follows current Chromium APIs.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Manifest V3 extensions are supported.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "limitations": "Arc's spaces and sidebar can change how extensions present UI compared with Chrome.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Browser blocking controls are native; do not treat them as a universal blocker guarantee.",
+      "sourceRefs": [
+        "arc"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Arc's sidebar is a vertical tab and space workflow.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "tabTrees": {
+      "value": "built-in",
+      "note": "Nested folders of pinned tabs give the sidebar a hierarchy.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Spaces are central to Arc's organization model.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles and spaces separate browsing contexts.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Split View with horizontal and vertical layouts is documented for macOS and Windows.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "The sidebar is the primary navigation surface.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Reader features are available in Arc's page tools.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "commandPalette": {
+      "value": "built-in",
+      "note": "Command Bar provides command-style navigation.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Arc syncs supported spaces and browser data through its account model.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Chromium web-app installation is supported.",
+      "sourceRefs": [
+        "arc"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; the shipping iOS build renders with WebKit.",
+    "sourceRefs": [
+      "arc"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Arc Max provides a built-in assistant surface.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Arc Max documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "Agentic actions are not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "An AI answer engine is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "Generation features are not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "Model selection is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unknown",
+      "note": "AI privacy controls are not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "Cross-tab context is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "Voice or image interaction is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "arc"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "arc"
+    ],
+    "availability": [
+      "arc"
+    ],
+    "foundation": [
+      "arc"
+    ],
+    "privacy": [
+      "arc"
+    ],
+    "extensions": [
+      "arc"
+    ],
+    "workflow": [
+      "arc"
+    ],
+    "status": [
+      "arc"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "arc",
+      "label": "Arc official help center",
+      "url": "https://resources.arc.net/hc/en-us",
+      "verifiedAt": "2026-09-16",
+      "note": "Product availability and workflow documentation."
+    }
+  ]
+}

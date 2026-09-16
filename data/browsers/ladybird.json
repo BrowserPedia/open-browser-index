@@ -1,0 +1,373 @@
+{
+  "slug": "ladybird",
+  "name": "Ladybird",
+  "canonicalUrl": "https://ladybird.org/",
+  "publisher": "Ladybird Browser Initiative",
+  "country": "United States",
+  "sourceId": "ladybird",
+  "status": "experimental",
+  "statusNote": "Experimental project under active development; web compatibility and platform support are incomplete.",
+  "availability": {
+    "macos": {
+      "value": "partial",
+      "note": "Development builds may be available; support is experimental.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "windows": {
+      "value": "unknown",
+      "note": "No stable supported Windows release.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "linux": {
+      "value": "partial",
+      "note": "Development builds target Linux, without stable daily-driver support.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No official Android browser release.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No official iOS browser release.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "cpuNotes": "Build requirements and supported targets are project-specific and changing.",
+    "installMethod": "Development build or source build from the project."
+  },
+  "foundation": {
+    "renderingEngine": "ladybird",
+    "javascriptEngine": "LibJS",
+    "upstreamProject": "Ladybird Browser Initiative",
+    "codeLicense": "Open source project under its published licenses",
+    "releaseChannel": "experimental",
+    "sourceRepository": "https://github.com/LadybirdBrowser/ladybird"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "No stable end-user telemetry posture is claimed for development builds.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unknown",
+      "note": "No mature native tracker blocker is documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No hardened fingerprinting posture is documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "privateWindows": "Do not rely on development-build privacy modes for sensitive browsing.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No browser VPN is included.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "Browser extension support is not a stable Ladybird feature.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "manifestV3": {
+      "value": "unavailable",
+      "note": "Manifest V3 support is not a stable Ladybird feature.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "limitations": "The project is not an extension-compatible replacement for mainstream browsers.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Native content blocking with configurable filter lists shipped in 2026, built on adblock-rust.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "A native vertical tab strip landed in 2026 development builds; the whole product remains pre-alpha.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No stable tab-tree workflow is documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No stable workspaces feature is documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "profiles": {
+      "value": "unknown",
+      "note": "Profile support is development-build dependent.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No stable split view.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "sidebar": {
+      "value": "unknown",
+      "note": "Sidebar behavior is not treated as a stable feature.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "readerMode": {
+      "value": "unavailable",
+      "note": "No stable reader mode.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "commandPalette": {
+      "value": "unknown",
+      "note": "Development-build controls may change.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "sync": {
+      "value": "unavailable",
+      "note": "No account sync is included.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "translation": {
+      "value": "unavailable",
+      "note": "No stable translation feature.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "pwa": {
+      "value": "unknown",
+      "note": "PWA support is not treated as stable.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "ladybird"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "ladybird"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "ladybird"
+    ],
+    "availability": [
+      "ladybird"
+    ],
+    "foundation": [
+      "ladybird"
+    ],
+    "privacy": [
+      "ladybird"
+    ],
+    "extensions": [
+      "ladybird"
+    ],
+    "workflow": [
+      "ladybird"
+    ],
+    "status": [
+      "ladybird"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "ladybird",
+      "label": "Ladybird official site",
+      "url": "https://ladybird.org/",
+      "verifiedAt": "2026-09-16",
+      "note": "Experimental project status and scope."
+    }
+  ]
+}

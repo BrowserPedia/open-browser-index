@@ -1,0 +1,373 @@
+{
+  "slug": "opera-mini",
+  "name": "Opera Mini",
+  "canonicalUrl": "https://www.opera.com/mini",
+  "publisher": "Opera",
+  "country": "Norway",
+  "sourceId": "opera-mini",
+  "status": "active",
+  "statusNote": "Actively developed for Android with ongoing feature additions; the iOS version is no longer distributed.",
+  "availability": {
+    "macos": {
+      "value": "unavailable",
+      "note": "No macOS build; desktop Opera is a separate product.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "windows": {
+      "value": "unavailable",
+      "note": "No Windows build; desktop Opera is a separate product.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No Linux build is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Distributed through Google Play and direct download.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "The iOS app is no longer distributed; the last iOS release shipped in 2018.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "cpuNotes": "Historically optimised for low-specification hardware and constrained networks.",
+    "installMethod": "Platform app store or direct download from Opera."
+  },
+  "foundation": {
+    "renderingEngine": "webview",
+    "javascriptEngine": "Server-side processing in compression modes",
+    "upstreamProject": "Opera proxy architecture",
+    "codeLicense": "Proprietary",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://www.opera.com/mini"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "No telemetry posture is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "A built-in ad blocker is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting-resistance posture is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "privateWindows": "Private tabs are available and the browser can be locked behind a PIN.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Compression modes route traffic through Opera's servers by design.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "No extension platform is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "manifestV3": {
+      "value": "unavailable",
+      "note": "No extension platform is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "limitations": "The product is deliberately lightweight and proxy-centred, with no client-side extension platform.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Ad blocking is built in.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "profiles": {
+      "value": "unknown",
+      "note": "Profile support is not documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "sidebar": {
+      "value": "unavailable",
+      "note": "No documented native sidebar.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "readerMode": {
+      "value": "unavailable",
+      "note": "Offline page saving is documented, but there is no reader view.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Signed-in users can sync bookmarks and Speed Dials.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation is not documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "pwa": {
+      "value": "unknown",
+      "note": "Progressive web app behaviour is not documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    }
+  },
+  "formFactor": "mobile",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No current iOS build is distributed.",
+    "sourceRefs": [
+      "opera-mini"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "An assistant surface (Aria) is documented in the app.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Aria documents summarising page and text content.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Searching the web with the built-in AI assistant is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Aria documents text and image generation in chat.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "built-in",
+      "note": "Server-side compression is the defining feature of the product.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unavailable",
+      "note": "No extension platform is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Can be set as the platform default browser.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "downloadManager": {
+      "value": "built-in",
+      "note": "A download manager is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "offlineReading": {
+      "value": "built-in",
+      "note": "Offline reading is documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "biometricLock": {
+      "value": "built-in",
+      "note": "The browser can be locked behind a PIN.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "opera-mini"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "opera-mini"
+    ],
+    "availability": [
+      "opera-mini"
+    ],
+    "foundation": [
+      "opera-mini"
+    ],
+    "privacy": [
+      "opera-mini"
+    ],
+    "extensions": [
+      "opera-mini"
+    ],
+    "workflow": [
+      "opera-mini"
+    ],
+    "status": [
+      "opera-mini"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "opera-mini",
+      "label": "Opera Mini official product page",
+      "url": "https://www.opera.com/mini",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and data-saving claims."
+    }
+  ]
+}

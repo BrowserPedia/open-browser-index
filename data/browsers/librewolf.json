@@ -1,0 +1,373 @@
+{
+  "slug": "librewolf",
+  "name": "LibreWolf",
+  "canonicalUrl": "https://librewolf.net/",
+  "publisher": "LibreWolf contributors",
+  "country": "International",
+  "sourceId": "librewolf",
+  "status": "active",
+  "statusNote": "Actively maintained by a community project; releases follow upstream Firefox work.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS builds for Intel and Apple silicon are published, and a Homebrew cask is available.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Community Windows builds are published.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Linux packages and builds are published.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No official Android browser is listed.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No official iOS browser is listed.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "cpuNotes": "Use the project's current package guidance for supported architectures.",
+    "installMethod": "Project packages, community repositories, or official releases."
+  },
+  "foundation": {
+    "renderingEngine": "gecko",
+    "javascriptEngine": "SpiderMonkey",
+    "upstreamProject": "Mozilla Firefox",
+    "codeLicense": "Open source Firefox derivative under MPL-compatible licensing",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://codeberg.org/librewolf/source"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unavailable",
+      "note": "LibreWolf removes Firefox telemetry, crash reporting, and studies; the project states it collects no user data.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "uBlock Origin and hardened blocking configurations are included by default.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "LibreWolf applies anti-fingerprinting hardening with compatibility trade-offs.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "privateWindows": "Private windows add local-data protections to an already hardened profile but do not provide anonymity.",
+    "defaultSearchEngine": "DuckDuckGo",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No general browser VPN is included.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "supported",
+    "manifestV2": {
+      "value": "built-in",
+      "note": "Firefox WebExtensions compatibility is used.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Firefox-derived Manifest V3 support is available.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "limitations": "Hardening can make some sites and extensions require exceptions or tuning.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "uBlock Origin is shipped as a native default extension configuration.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "LibreWolf tracks current Firefox and inherits its native vertical tabs.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Firefox's native Split View is inherited from the current base.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Firefox sidebar functionality remains available.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Firefox Reader View is built in.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "sync": {
+      "value": "minimal-or-opt-in",
+      "note": "Firefox Sync is compiled in but disabled by default; it must be enabled in settings.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Firefox-derived translation is available where supported.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "pwa": {
+      "value": "minimal-or-opt-in",
+      "note": "Native web-app install is Windows-only in current Firefox; other platforms need an extension.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "librewolf"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "LibreWolf documents that generative AI features are removed from its Firefox base.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "librewolf"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "librewolf"
+    ],
+    "availability": [
+      "librewolf"
+    ],
+    "foundation": [
+      "librewolf"
+    ],
+    "privacy": [
+      "librewolf"
+    ],
+    "extensions": [
+      "librewolf"
+    ],
+    "workflow": [
+      "librewolf"
+    ],
+    "status": [
+      "librewolf"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "librewolf",
+      "label": "LibreWolf official site",
+      "url": "https://librewolf.net/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product, hardening, and platform scope."
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "slug": "floorp",
+  "name": "Floorp",
+  "canonicalUrl": "https://floorp.app/",
+  "publisher": "Floorp Projects",
+  "country": "Japan",
+  "sourceId": "floorp",
+  "status": "active",
+  "statusNote": "Actively developed community Firefox derivative.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS builds are listed.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows builds are listed.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux builds are listed.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No official Android browser is listed.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "ios": {
+      "value": "partial",
+      "note": "Floorp for iOS is a public TestFlight beta announced in August 2026, built on Firefox for iOS.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "cpuNotes": "Check current release notes for architecture-specific packages.",
+    "installMethod": "Official desktop download or package."
+  },
+  "foundation": {
+    "renderingEngine": "gecko",
+    "javascriptEngine": "SpiderMonkey",
+    "upstreamProject": "Mozilla Firefox",
+    "codeLicense": "Open source Firefox-based project",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/Floorp-Projects/Floorp"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "Consult current Floorp policy for project-specific telemetry details.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Firefox-derived tracking protection is enabled.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Firefox-derived fingerprinting controls are available.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "privateWindows": "Private windows inherit Firefox's local privacy behavior and do not anonymize traffic.",
+    "defaultSearchEngine": "Google",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Firefox's built-in VPN integration is enabled in supported regions with a Mozilla account (Floorp 12.16+).",
+      "sourceRefs": [
+        "floorp"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "partial",
+    "firefoxAddons": "supported",
+    "manifestV2": {
+      "value": "built-in",
+      "note": "Floorp uses Firefox WebExtensions compatibility.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Firefox-derived Manifest V3 support is available.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "limitations": "Firefox Add-ons are the primary store; Chrome Web Store installation shipped in Floorp 12.8+ with incomplete compatibility.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Firefox-derived tracking protection is native.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Floorp's own vertical tabs were removed in version 12; its documentation directs users to Firefox's implementation instead.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "tabTrees": {
+      "value": "available-by-extension",
+      "note": "Tree-style tabs come from the Tree Style Tab add-on with a Floorp optimisation mode; native grouping is Tab Stacks.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Workspaces are included for task separation.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Firefox profiles support separated contexts.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Floorp documents split-view browsing.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Sidebars and web panels are built in.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Firefox Reader View is available.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "commandPalette": {
+      "value": "built-in",
+      "note": "A first-party command palette shipped in Floorp 12.17.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Firefox Sync compatibility is available.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Firefox-derived translation is available where supported.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "webkit-required",
+    "note": "The iOS TestFlight beta is built on Firefox for iOS and renders with WebKit.",
+    "sourceRefs": [
+      "floorp"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "floorp"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "floorp"
+    ],
+    "availability": [
+      "floorp"
+    ],
+    "foundation": [
+      "floorp"
+    ],
+    "privacy": [
+      "floorp"
+    ],
+    "extensions": [
+      "floorp"
+    ],
+    "workflow": [
+      "floorp"
+    ],
+    "status": [
+      "floorp"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "floorp",
+      "label": "Floorp official site",
+      "url": "https://floorp.app/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product features and platform scope."
+    }
+  ]
+}

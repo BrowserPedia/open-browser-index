@@ -1,0 +1,373 @@
+{
+  "slug": "firefox",
+  "name": "Firefox",
+  "canonicalUrl": "https://www.firefox.com/",
+  "publisher": "Mozilla",
+  "country": "United States",
+  "sourceId": "firefox",
+  "status": "active",
+  "statusNote": "Actively developed by Mozilla across desktop and mobile platforms.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS build.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows build.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux build.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Official iOS app using Apple's browser-engine rules.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "cpuNotes": "Official desktop builds cover common 64-bit architectures.",
+    "installMethod": "Official installer, Linux package, or app store."
+  },
+  "foundation": {
+    "renderingEngine": "gecko",
+    "javascriptEngine": "SpiderMonkey",
+    "upstreamProject": "Mozilla Firefox",
+    "codeLicense": "Open source under Mozilla Public License 2.0 and compatible licenses",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/mozilla-firefox/firefox"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Firefox offers telemetry and data-collection controls in settings.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Enhanced Tracking Protection blocks known trackers by default.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Enhanced Tracking Protection includes fingerprinting protection controls.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "privateWindows": "Private Windows discard local history and use stricter tracking protections; they are not anonymous browsing.",
+    "defaultSearchEngine": "Google",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "A built-in browser VPN is rolling out regionally; Mozilla VPN remains a separate paid full-device service.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "supported",
+    "manifestV2": {
+      "value": "built-in",
+      "note": "Firefox continues to document WebExtensions APIs with its own compatibility policy.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Firefox supports Manifest V3 with browser-specific API differences.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "limitations": "Chrome extensions are not a supported installation path; Firefox Add-ons compatibility is the relevant measure.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Enhanced Tracking Protection is native but is not equivalent to a universal ad-blocking promise.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Vertical tabs are a built-in layout option, enabled from the tab strip or sidebar settings.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "A native Split View shipped in Firefox 149.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Firefox includes a sidebar for bookmarks, history, and tabs.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Reader View is built in.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "commandPalette": {
+      "value": "available-by-extension",
+      "note": "Command palettes are available through add-ons.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Sync is provided by the browser or its upstream project.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Firefox Translation is available for supported language pairs.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "pwa": {
+      "value": "minimal-or-opt-in",
+      "note": "Native taskbar web apps are Windows-only since Firefox 143; other desktops need an extension.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; no non-WebKit build ships in the App Store.",
+    "sourceRefs": [
+      "firefox"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "AI chatbot sidebar and AI Controls provides a built-in assistant surface.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "AI chatbot sidebar and AI Controls documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "Agentic actions are not documented.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "aiSearch": {
+      "value": "minimal-or-opt-in",
+      "note": "Smart Window, documented as a beta, provides AI answers with live web results and cited sources.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unknown",
+      "note": "Generation features are not documented.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "modelChoice": {
+      "value": "built-in",
+      "note": "AI chatbot sidebar and AI Controls documents a choice of models or local model support.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "AI chatbot sidebar and AI Controls documents retention, training or kill-switch controls.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "AI chatbot sidebar and AI Controls documents awareness of multiple tabs or history.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unknown",
+      "note": "Voice or image interaction is not documented.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "built-in",
+      "note": "Add-ons install on Android from addons.mozilla.org through an in-app extensions manager; Mozilla states add-ons are unavailable on iOS.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Mozilla documents the steps to make Firefox the default browser on both Android and iOS.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "built-in",
+      "note": "Switching a page to desktop view is documented for both mobile builds.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "downloadManager": {
+      "value": "built-in",
+      "note": "Android documents a Downloads screen; the iOS pages cover saving files without naming a manager.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Reader View is documented; saving a page to read offline is not.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "biometricLock": {
+      "value": "built-in",
+      "note": "Android private tabs can be locked behind face, fingerprint, or PIN.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "firefox"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "firefox"
+    ],
+    "availability": [
+      "firefox"
+    ],
+    "foundation": [
+      "firefox"
+    ],
+    "privacy": [
+      "firefox"
+    ],
+    "extensions": [
+      "firefox"
+    ],
+    "workflow": [
+      "firefox"
+    ],
+    "status": [
+      "firefox"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "firefox",
+      "label": "Firefox official product page",
+      "url": "https://www.firefox.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product and platform scope."
+    }
+  ]
+}

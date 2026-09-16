@@ -1,0 +1,373 @@
+{
+  "slug": "waterfox",
+  "name": "Waterfox",
+  "canonicalUrl": "https://www.waterfox.com/",
+  "publisher": "BrowserWorks",
+  "country": "United Kingdom",
+  "sourceId": "waterfox",
+  "status": "active",
+  "statusNote": "Actively maintained Firefox-derived browser; verify feature and platform details per release.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS builds are listed.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows builds are listed.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux builds are listed.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app is listed.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No official iOS browser is listed.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "cpuNotes": "Current architecture requirements are release-specific.",
+    "installMethod": "Official installer or app store/package."
+  },
+  "foundation": {
+    "renderingEngine": "gecko",
+    "javascriptEngine": "SpiderMonkey",
+    "upstreamProject": "Mozilla Firefox",
+    "codeLicense": "Open source Firefox-derived browser with proprietary services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/BrowserWorks/Waterfox"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "Waterfox's current telemetry details should be read in its policy before deployment.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Firefox-derived tracking protection is included.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No separate hardened fingerprinting claim is made here.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "privateWindows": "Private windows limit local records but do not anonymize traffic.",
+    "defaultSearchEngine": "Qwant (DuckDuckGo outside supported regions)",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No general browser VPN is included.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "supported",
+    "manifestV2": {
+      "value": "built-in",
+      "note": "Firefox WebExtensions compatibility is used.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Firefox-derived Manifest V3 support is available.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "limitations": "Waterfox-specific compatibility and legacy expectations should be checked per extension.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Firefox-derived tracking protection is native.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "First-party vertical tabs shipped in Waterfox 6.6 and continue to be iterated.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "tabTrees": {
+      "value": "built-in",
+      "note": "Waterfox 6.7 replaced its bundled tree add-on with native tree tabs in the vertical strip.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Firefox's native Split View is inherited from the current Gecko base.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Firefox sidebar functionality is available.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Firefox Reader View is available.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Firefox Sync compatibility is available.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Firefox-derived translation is available where supported.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "waterfox"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "Waterfox documents that LLM features are not included by default.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "waterfox"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "waterfox"
+    ],
+    "availability": [
+      "waterfox"
+    ],
+    "foundation": [
+      "waterfox"
+    ],
+    "privacy": [
+      "waterfox"
+    ],
+    "extensions": [
+      "waterfox"
+    ],
+    "workflow": [
+      "waterfox"
+    ],
+    "status": [
+      "waterfox"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "waterfox",
+      "label": "Waterfox official site",
+      "url": "https://www.waterfox.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product and platform scope."
+    }
+  ]
+}

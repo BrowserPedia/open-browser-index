@@ -1,0 +1,373 @@
+{
+  "slug": "mullvad-browser",
+  "name": "Mullvad Browser",
+  "canonicalUrl": "https://mullvad.net/en/browser",
+  "publisher": "Mullvad VPN",
+  "country": "Sweden",
+  "sourceId": "mullvad-browser",
+  "status": "active",
+  "statusNote": "Actively developed; the stable channel tracks Firefox ESR and the alpha channel tracks Firefox rapid release.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by Mullvad.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows build published by Mullvad.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Linux packages published by Mullvad.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No Android build is documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No iOS build is documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "cpuNotes": "Desktop builds are 64-bit; ARM support is documented through the alpha channel.",
+    "installMethod": "Direct download from Mullvad or distribution packages."
+  },
+  "foundation": {
+    "renderingEngine": "gecko",
+    "javascriptEngine": "SpiderMonkey",
+    "upstreamProject": "Firefox ESR by way of Tor Browser",
+    "codeLicense": "Open source under the Mozilla Public License",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/mullvad/mullvad-browser"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unavailable",
+      "note": "Telemetry and crash reporting are disabled at compile time and the telemetry sender is removed.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "uBlock Origin ships preinstalled and enabled.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "The build targets a uniform fingerprint across users, including letterboxing.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "privateWindows": "The browser is configured to behave like a private session throughout, clearing cookies and site data between sessions rather than only in a separate window.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No proxy is bundled; the browser is designed to be used alongside a separate VPN.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "partial",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest version support is not documented separately from upstream Firefox.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Manifest version support is not documented separately from upstream Firefox.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "limitations": "Extensions are deliberately restricted because each added extension makes a browser more distinguishable, which works against the uniform-fingerprint goal.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Content blocking is provided by the preinstalled uBlock Origin.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "The Firefox ESR 140 base includes native vertical tabs.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "profiles": {
+      "value": "unknown",
+      "note": "Profile support is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "The Firefox sidebar ships in the base; some sidebar buttons are hidden for fingerprinting reasons.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Firefox Reader View is in the ESR base.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "sync": {
+      "value": "unavailable",
+      "note": "Account sync is removed from the build.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "pwa": {
+      "value": "unknown",
+      "note": "Progressive web app behaviour is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "mullvad-browser"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "The build is hardened against added surfaces and documents no AI assistant.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "setAsDefault": {
+      "value": "not-applicable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "mullvad-browser"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "mullvad-browser"
+    ],
+    "availability": [
+      "mullvad-browser"
+    ],
+    "foundation": [
+      "mullvad-browser"
+    ],
+    "privacy": [
+      "mullvad-browser"
+    ],
+    "extensions": [
+      "mullvad-browser"
+    ],
+    "workflow": [
+      "mullvad-browser"
+    ],
+    "status": [
+      "mullvad-browser"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "mullvad-browser",
+      "label": "Mullvad Browser official page",
+      "url": "https://mullvad.net/en/browser",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and anti-fingerprinting design."
+    }
+  ]
+}

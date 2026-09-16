@@ -1,0 +1,373 @@
+{
+  "slug": "opera-air",
+  "name": "Opera Air",
+  "canonicalUrl": "https://www.opera.com/air",
+  "publisher": "Opera",
+  "country": "Norway",
+  "sourceId": "opera-air",
+  "status": "active",
+  "statusNote": "Released as a distinct Opera product and updated alongside the Opera family.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by Opera.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows build published by Opera.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "linux": {
+      "value": "unknown",
+      "note": "Linux availability is not clearly documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "cpuNotes": "Desktop builds target current 64-bit hardware.",
+    "installMethod": "Direct download from Opera."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary browser built on open-source Chromium",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://www.opera.com/air"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "No end-user telemetry posture is documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Opera's tracker and ad blocking is included.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting-resistance posture is documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "privateWindows": "A private mode is available, inherited from the Opera base.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Opera's browser VPN feature is included.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented separately.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Chromium extension support is present.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "limitations": "Extension behaviour follows the Opera and Chromium base.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Blocking is built in.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Opera's workspaces are included.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "A sidebar is part of the Opera interface.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Opera account sync is available.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "opera-air"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Opera's assistant is included.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Summarisation is documented in the Opera family.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Opera AI documents text and image generation, including wallpapers.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Speech-to-text input and read-aloud output are documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "setAsDefault": {
+      "value": "not-applicable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "opera-air"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "opera-air"
+    ],
+    "availability": [
+      "opera-air"
+    ],
+    "foundation": [
+      "opera-air"
+    ],
+    "privacy": [
+      "opera-air"
+    ],
+    "extensions": [
+      "opera-air"
+    ],
+    "workflow": [
+      "opera-air"
+    ],
+    "status": [
+      "opera-air"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "opera-air",
+      "label": "Opera Air official page",
+      "url": "https://www.opera.com/air",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope and platform availability."
+    }
+  ]
+}

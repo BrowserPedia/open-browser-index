@@ -1,0 +1,373 @@
+{
+  "slug": "vivaldi",
+  "name": "Vivaldi",
+  "canonicalUrl": "https://vivaldi.com/",
+  "publisher": "Vivaldi Technologies",
+  "country": "Norway",
+  "sourceId": "vivaldi",
+  "status": "active",
+  "statusNote": "Actively developed across desktop and mobile platforms.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS build.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows build.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux packages.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Official iOS app.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "cpuNotes": "Desktop package availability varies by distribution and architecture.",
+    "installMethod": "Official installer, package repository, or app store."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Chromium open-source base with Vivaldi proprietary UI and services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://vivaldi.com/source/"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Vivaldi documents limited telemetry and privacy settings in its policy.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Vivaldi includes an ad and tracker blocker with selectable lists.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No broad hardened fingerprinting posture is claimed here.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "privateWindows": "Private windows limit local storage and history but do not provide anonymity.",
+    "defaultSearchEngine": "Region-dependent (Startpage, Ecosia, DuckDuckGo, or Qwant)",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Proton VPN is integrated in desktop Vivaldi; mobile builds do not include it.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "available-by-extension",
+      "note": "Chromium extension compatibility depends on the current Vivaldi release.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Manifest V3 is supported.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "limitations": "Chrome extensions work through Chromium-compatible distribution, while Vivaldi UI features do not guarantee extension compatibility.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Vivaldi's tracker and ad blocker is native.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Tab stacking and a vertical tab bar are documented features.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "tabTrees": {
+      "value": "built-in",
+      "note": "Tab Stacks provide a hierarchical grouping model.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Workspaces organize tabs by task.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Tab tiling supports side-by-side pages.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "The Web Panel sidebar is a core feature.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Reader View is built in.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "commandPalette": {
+      "value": "built-in",
+      "note": "Quick Commands acts as a command palette.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Vivaldi Sync covers supported browser data.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Page translation is documented.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Chromium web-app installation is supported.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; the shipping iOS build renders with WebKit.",
+    "sourceRefs": [
+      "vivaldi"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "Vivaldi documents a deliberate decision not to ship LLM chat or summarisation features.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "built-in",
+      "note": "Vivaldi's Android help documents managing and disabling extensions on the phone build.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Vivaldi documents setting itself as the Android default from its own settings or Android's default apps.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "built-in",
+      "note": "Desktop Site and Always Show Desktop Site are documented.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "downloadManager": {
+      "value": "built-in",
+      "note": "A Downloads Panel is documented on Android.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Reader View is documented; a save-for-offline list is not.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "biometricLock": {
+      "value": "built-in",
+      "note": "Private tabs can be locked behind the device PIN, password, or pattern.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "vivaldi"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "vivaldi"
+    ],
+    "availability": [
+      "vivaldi"
+    ],
+    "foundation": [
+      "vivaldi"
+    ],
+    "privacy": [
+      "vivaldi"
+    ],
+    "extensions": [
+      "vivaldi"
+    ],
+    "workflow": [
+      "vivaldi"
+    ],
+    "status": [
+      "vivaldi"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "vivaldi",
+      "label": "Vivaldi official features",
+      "url": "https://vivaldi.com/features/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product features and platform scope."
+    }
+  ]
+}

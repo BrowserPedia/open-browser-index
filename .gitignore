@@ -1,0 +1,15 @@
+# Local dependency and tool output
+node_modules/
+.npm/
+*.log
+
+# OS and editor files
+.DS_Store
+.env
+.env.*
+.vscode/
+.idea/
+
+# Temporary output; generated dist/ is intentionally tracked
+tmp/
+coverage/

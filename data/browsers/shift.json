@@ -1,0 +1,373 @@
+{
+  "slug": "shift",
+  "name": "Shift",
+  "canonicalUrl": "https://shift.com/",
+  "publisher": "Shift Technologies",
+  "country": "Canada",
+  "sourceId": "shift",
+  "status": "active",
+  "statusNote": "Actively developed and sold with free and paid tiers.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by the vendor.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows build published by the vendor.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "linux": {
+      "value": "unknown",
+      "note": "Linux availability is not clearly documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "cpuNotes": "Desktop builds target current 64-bit hardware.",
+    "installMethod": "Direct download from the vendor."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary browser built on open-source Chromium",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://shift.com/"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "No end-user telemetry posture is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unknown",
+      "note": "Default blocking behaviour is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting posture is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "privateWindows": "A private mode is available, inherited from the Chromium base.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented separately.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Chromium extension support is present.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "limitations": "Extension behaviour follows the Chromium base.",
+    "nativeContentBlocking": {
+      "value": "unavailable",
+      "note": "No native blocker is bundled.",
+      "sourceRefs": [
+        "shift"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "The layout builder supports a vertical tab strip.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Workspaces are the organising concept of the product.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Multiple account identities are a core feature.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "An application sidebar is part of the interface.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Account sync across machines is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "shift"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "shift"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Shift AI is documented as a context-aware assistant launched from the omnibox.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Summarising long webpages and videos is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Context-aware AI search and chat from the omnibox is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Drafting replies and other write-in-place tasks are documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "Shift AI can be disabled in settings, and chats route through a privacy proxy.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Shift AI is described as understanding context across tabs and pages.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "shift"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "setAsDefault": {
+      "value": "not-applicable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "shift"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "shift"
+    ],
+    "availability": [
+      "shift"
+    ],
+    "foundation": [
+      "shift"
+    ],
+    "privacy": [
+      "shift"
+    ],
+    "extensions": [
+      "shift"
+    ],
+    "workflow": [
+      "shift"
+    ],
+    "status": [
+      "shift"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "shift",
+      "label": "Shift browser official site",
+      "url": "https://shift.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope and workspace feature naming."
+    }
+  ]
+}

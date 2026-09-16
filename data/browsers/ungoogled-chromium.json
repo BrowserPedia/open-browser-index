@@ -1,0 +1,373 @@
+{
+  "slug": "ungoogled-chromium",
+  "name": "ungoogled-chromium",
+  "canonicalUrl": "https://github.com/ungoogled-software/ungoogled-chromium",
+  "publisher": "ungoogled-software contributors",
+  "country": "International",
+  "sourceId": "ungoogled",
+  "status": "active",
+  "statusNote": "Active community project; package freshness and support vary by distributor.",
+  "availability": {
+    "macos": {
+      "value": "partial",
+      "note": "Community builds and package availability vary.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "windows": {
+      "value": "partial",
+      "note": "Community builds are published, but distribution is not a single vendor channel.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Packages are commonly available through community distributions.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "android": {
+      "value": "partial",
+      "note": "Android builds are a separate community packaging concern.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No iOS build is provided by the project.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "cpuNotes": "Architecture and version availability depend on the package maintainer.",
+    "installMethod": "Community package, release artifact, or distribution repository."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Chromium open source with project patches; no bundled Google service layer",
+    "releaseChannel": "rolling",
+    "sourceRepository": "https://github.com/ungoogled-software/ungoogled-chromium"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unavailable",
+      "note": "Google reporting and service integrations are removed or disabled by project patches.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unavailable",
+      "note": "No general content blocker is promised by the upstream-removal project.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "Removing Google services is not the same as anti-fingerprinting hardening.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "privateWindows": "Incognito retains Chromium's local privacy scope and does not anonymize traffic.",
+    "defaultSearchEngine": "None preset (user-configured)",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No browser VPN is included.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "partial",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "available-by-extension",
+      "note": "Support follows the packaged Chromium version.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Current Chromium extension APIs include Manifest V3.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "limitations": "Users may need to install extensions manually because Google Web Store integration is not a project guarantee.",
+    "nativeContentBlocking": {
+      "value": "unavailable",
+      "note": "Use a separately installed blocker if supported by the package.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Chromium's native vertical tab strip is retained in current packages.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Chromium's native Split View is retained in current packages.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Chromium's side panel is retained; the project does not strip it.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Chromium reader mode is available where enabled.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "sync": {
+      "value": "unavailable",
+      "note": "Google account sync is removed or unavailable.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "translation": {
+      "value": "unavailable",
+      "note": "Google translation integration is removed or unavailable.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Chromium web-app installation is supported.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "ungoogled"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "ungoogled"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "ungoogled"
+    ],
+    "availability": [
+      "ungoogled"
+    ],
+    "foundation": [
+      "ungoogled"
+    ],
+    "privacy": [
+      "ungoogled"
+    ],
+    "extensions": [
+      "ungoogled"
+    ],
+    "workflow": [
+      "ungoogled"
+    ],
+    "status": [
+      "ungoogled"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "ungoogled",
+      "label": "ungoogled-chromium repository",
+      "url": "https://github.com/ungoogled-software/ungoogled-chromium",
+      "verifiedAt": "2026-09-16",
+      "note": "Project scope and distribution model."
+    }
+  ]
+}

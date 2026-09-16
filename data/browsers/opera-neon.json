@@ -1,0 +1,373 @@
+{
+  "slug": "opera-neon",
+  "name": "Opera Neon",
+  "canonicalUrl": "https://www.operaneon.com/",
+  "publisher": "Opera",
+  "country": "Norway",
+  "sourceId": "opera-neon",
+  "status": "active",
+  "statusNote": "Released with a free browsing plan since August 2026; the built-in agents require a paid subscription.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by Opera.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Opera's Neon FAQ lists macOS and Windows as the current builds.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "linux": {
+      "value": "unknown",
+      "note": "Opera's download flow covers macOS and Windows; Linux is not addressed.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "Opera states a mobile experience is planned but not released.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "Opera states a mobile experience is planned but not released.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "cpuNotes": "Desktop builds target current 64-bit hardware.",
+    "installMethod": "Direct download from Opera; the built-in agents require a subscription."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary browser built on open-source Chromium",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://www.operaneon.com/"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Opera's Neon privacy statement documents install and machine identifiers, hardware details, and feature-usage collection, with an opt-out under Privacy and Security.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unknown",
+      "note": "Default blocking behaviour is not clearly documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting-resistance posture is documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "privateWindows": "A private mode is available, inherited from the Chromium base.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "A free VPN is listed in Browser Essentials, with a paid VPN Pro tier documented separately.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unknown",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest support is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Manifest support is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "limitations": "Extension policy is not documented separately from the Chromium base.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Opera lists a built-in ad blocker; whether tracker blocking is on by default is not stated.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Task-oriented organisation is documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "profiles": {
+      "value": "unavailable",
+      "note": "No separate user profiles are documented for a shared device.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Split screen for two to four pages is documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "An assistant surface is a core part of the interface.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "sync": {
+      "value": "unknown",
+      "note": "Sync behaviour is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "opera-neon"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "An assistant is the primary interface.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Summarisation is documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "agenticActions": {
+      "value": "built-in",
+      "note": "Delegated multi-step tasks are the product's headline capability.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Creation tools are documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "modelChoice": {
+      "value": "built-in",
+      "note": "Access to multiple models is documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "Opera states it does not train models on user data and publishes retention windows for assistant inputs and outputs.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Tasks operate across pages.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "setAsDefault": {
+      "value": "not-applicable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "opera-neon"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "opera-neon"
+    ],
+    "availability": [
+      "opera-neon"
+    ],
+    "foundation": [
+      "opera-neon"
+    ],
+    "privacy": [
+      "opera-neon"
+    ],
+    "extensions": [
+      "opera-neon"
+    ],
+    "workflow": [
+      "opera-neon"
+    ],
+    "status": [
+      "opera-neon"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "opera-neon",
+      "label": "Opera Neon official page",
+      "url": "https://www.operaneon.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, subscription model, and agentic feature naming."
+    }
+  ]
+}

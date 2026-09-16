@@ -1,0 +1,373 @@
+{
+  "slug": "norton-neo",
+  "name": "Norton Neo",
+  "canonicalUrl": "https://neobrowser.ai/",
+  "publisher": "Gen Digital",
+  "country": "United States",
+  "sourceId": "norton-neo",
+  "status": "active",
+  "statusNote": "Recently launched and actively developed; the commercial model is still settling.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by the vendor.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows build published by the vendor.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "The vendor download page publishes a 64-bit .deb build.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Norton announces Neo Mobile for Android with a Play listing.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "An App Store listing by Gen Digital is live and the download page links to it.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "cpuNotes": "Desktop builds target current 64-bit hardware.",
+    "installMethod": "Direct download from the vendor."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary browser built on open-source Chromium",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://neobrowser.ai/"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "minimal-or-opt-in",
+      "note": "The vendor FAQ describes collecting minimal anonymised data to improve performance, with browsing data kept local unless a feature needs the cloud.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "An ad and tracker blocker is bundled.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "The vendor documents blocking and randomising fingerprinting signals by default.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "privateWindows": "A private mode is available, inherited from the Chromium base.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "An adaptive VPN feature is documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "partial",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "limitations": "The vendor states compatibility with most Chrome extensions without publishing a list, and positions its own protections as needing no extension.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Blocking is bundled with the browser.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "A horizontal or vertical tab toggle is documented in Settings.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Two pages side by side in one window are documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "An assistant surface is documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "commandPalette": {
+      "value": "built-in",
+      "note": "Universal Search covers tabs, history, bookmarks, and the web from one keystroke.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "sync": {
+      "value": "unknown",
+      "note": "Sync behaviour is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; the shipping iOS build renders with WebKit.",
+    "sourceRefs": [
+      "norton-neo"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "An AI command surface is the headline feature.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Summarisation is documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "agenticActions": {
+      "value": "unknown",
+      "note": "Action-taking scope is not clearly documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Search and generation share one entry point.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Generation is documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "Configurable memory, local chat storage, and zero-retention agreements with AI providers are documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Searching across tabs, history, and chats with context-aware tab features is documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "norton-neo"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "norton-neo"
+    ],
+    "availability": [
+      "norton-neo"
+    ],
+    "foundation": [
+      "norton-neo"
+    ],
+    "privacy": [
+      "norton-neo"
+    ],
+    "extensions": [
+      "norton-neo"
+    ],
+    "workflow": [
+      "norton-neo"
+    ],
+    "status": [
+      "norton-neo"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "norton-neo",
+      "label": "Norton Neo official site",
+      "url": "https://neobrowser.ai/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and bundled protections."
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "slug": "orion",
+  "name": "Orion",
+  "canonicalUrl": "https://browser.kagi.com/",
+  "publisher": "Kagi",
+  "country": "United States",
+  "sourceId": "orion",
+  "status": "active",
+  "statusNote": "Actively developed for Apple platforms, with a public Linux beta and a Windows build in development.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS release.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "windows": {
+      "value": "unavailable",
+      "note": "No public Windows release; Kagi documents a Windows build in development.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "linux": {
+      "value": "partial",
+      "note": "A WebKitGTK Linux build is in public beta, distributed as a Flatpak.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No Android release is listed.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Official iOS release.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "cpuNotes": "Apple OS version requirements apply.",
+    "installMethod": "Official download or Apple App Store."
+  },
+  "foundation": {
+    "renderingEngine": "webkit",
+    "javascriptEngine": "JavaScriptCore",
+    "upstreamProject": "WebKit",
+    "codeLicense": "WebKit open source with proprietary Orion browser code",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/OrionBrowser"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unavailable",
+      "note": "Kagi documents a zero-telemetry policy for Orion within the documented scope.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Orion includes native content blocking and compatibility controls.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No broad hardened fingerprinting posture is claimed here.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "privateWindows": "Private windows limit local records but do not anonymize traffic.",
+    "defaultSearchEngine": "None preset (chosen on first use; Kagi is an included option)",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No general browser VPN is included.",
+      "sourceRefs": [
+        "orion"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "partial",
+    "firefoxAddons": "partial",
+    "manifestV2": {
+      "value": "available-by-extension",
+      "note": "Orion supports selected WebExtensions APIs, not the full store contracts.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "manifestV3": {
+      "value": "available-by-extension",
+      "note": "Manifest V3 compatibility is partial and extension-specific.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "limitations": "Web extension compatibility is selective; test required extensions before migrating.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Orion includes native content-blocking rules.",
+      "sourceRefs": [
+        "orion"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Orion documents vertical tabs on supported Apple platforms.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Orion supports tab groups or workspace-like organization.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Sidebar tab navigation is built in.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "WebKit Reader is available.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "iCloud-based browser data sync is documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Translation is available through WebKit or Orion features where supported.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "orion"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "webkit-required",
+    "note": "Orion is built on WebKit by design on Apple platforms.",
+    "sourceRefs": [
+      "orion"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "orion"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "built-in",
+      "note": "Kagi documents installing Chrome and Firefox extensions on the iOS build; Safari extensions are not supported.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "built-in",
+      "note": "A Desktop Mode is documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "orion"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "orion"
+    ],
+    "availability": [
+      "orion"
+    ],
+    "foundation": [
+      "orion"
+    ],
+    "privacy": [
+      "orion"
+    ],
+    "extensions": [
+      "orion"
+    ],
+    "workflow": [
+      "orion"
+    ],
+    "status": [
+      "orion"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "orion",
+      "label": "Orion official product page",
+      "url": "https://browser.kagi.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product, platform, and extension scope."
+    }
+  ]
+}

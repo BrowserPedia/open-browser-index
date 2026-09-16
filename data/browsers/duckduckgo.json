@@ -1,0 +1,373 @@
+{
+  "slug": "duckduckgo",
+  "name": "DuckDuckGo Browser",
+  "canonicalUrl": "https://duckduckgo.com/app",
+  "publisher": "DuckDuckGo",
+  "country": "United States",
+  "sourceId": "duckduckgo",
+  "status": "active",
+  "statusNote": "Actively developed and updated across desktop and mobile platforms.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by DuckDuckGo.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows build published by DuckDuckGo.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No Linux build is documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Distributed through Google Play.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Distributed through the App Store.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "cpuNotes": "Windows support is documented for recent 64-bit releases; older 32-bit support is being retired.",
+    "installMethod": "Direct download or platform app store."
+  },
+  "foundation": {
+    "renderingEngine": "webview",
+    "javascriptEngine": "Platform JavaScript engine",
+    "upstreamProject": "Operating-system web view",
+    "codeLicense": "Free product with parts of the codebase published openly",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/duckduckgo"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "minimal-or-opt-in",
+      "note": "DuckDuckGo documents that it does not track searches or browsing history.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Third-party tracker blocking is enabled by default.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Multiple layers of fingerprinting protection are documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "privateWindows": "Protections are applied in ordinary tabs rather than reserved for a separate private mode, and browsing data can be cleared with one action.",
+    "defaultSearchEngine": "DuckDuckGo",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "A device-wide VPN is included with the paid Privacy Pro subscription and managed inside the browser.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "No third-party extension platform is documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "manifestV3": {
+      "value": "unavailable",
+      "note": "No third-party extension platform is documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "limitations": "There is no third-party extension store by design; protections that other browsers delegate to add-ons are built in instead.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Ad, tracker, and cookie pop-up blocking are built in.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "profiles": {
+      "value": "unknown",
+      "note": "Profile support is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "sidebar": {
+      "value": "unavailable",
+      "note": "No documented native sidebar.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "readerMode": {
+      "value": "unavailable",
+      "note": "No native reader view is documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Sync & Backup pairs devices by QR code without an account and is end-to-end encrypted.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "pwa": {
+      "value": "unavailable",
+      "note": "The desktop browser does not install sites as web apps.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; the shipping iOS build renders with WebKit.",
+    "sourceRefs": [
+      "duckduckgo"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "An optional private AI chat surface (Duck.ai) is documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Duck.ai can attach page content and summarise the open page.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Optional AI-assisted answers on DuckDuckGo search results are a first-party setting.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Duck.ai documents drafting text, with image generation in current desktop builds.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "modelChoice": {
+      "value": "built-in",
+      "note": "Duck.ai offers a choice of models, with additional models for subscribers.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "DuckDuckGo documents anonymised access and no training on conversations.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Voice chat and image input are documented in current desktop builds of Duck.ai.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Can be set as the default browser on Android and iOS.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A download manager is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "biometricLock": {
+      "value": "unavailable",
+      "note": "Face ID, Touch ID, or the passcode gates passwords and autofill only; there is no app or private-tab lock.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "duckduckgo"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "duckduckgo"
+    ],
+    "availability": [
+      "duckduckgo"
+    ],
+    "foundation": [
+      "duckduckgo"
+    ],
+    "privacy": [
+      "duckduckgo"
+    ],
+    "extensions": [
+      "duckduckgo"
+    ],
+    "workflow": [
+      "duckduckgo"
+    ],
+    "status": [
+      "duckduckgo"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "duckduckgo",
+      "label": "DuckDuckGo browser product and help pages",
+      "url": "https://duckduckgo.com/app",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and default protection claims."
+    }
+  ]
+}

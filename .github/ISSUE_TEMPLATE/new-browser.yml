@@ -1,0 +1,44 @@
+name: Add a browser
+description: Propose a complete, source-linked factual browser record.
+title: "[Browser] "
+labels: ["new-browser"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New records must be complete, factual, and source-linked. Partial/demo records and recommendations are not accepted.
+  - type: input
+    id: name
+    attributes:
+      label: Browser name and slug
+      placeholder: Example Browser (example-browser)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical product URL
+      placeholder: https://example.com/browser
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Factual scope
+      description: Summarize identity, platforms, foundation, privacy, extensions, workflow, AI, mobile facts, and any limits.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and evidence
+      description: List public URLs, relevant passages, and verification dates for the claims.
+    validations:
+      required: true
+  - type: textarea
+    id: conflict
+    attributes:
+      label: Conflicts of interest
+      description: Disclose relationships with the vendor. Write “None” if applicable.
+    validations:
+      required: true

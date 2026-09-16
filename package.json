@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Open Browser Index validation and assembly tasks (local development only).",
+  "scripts": {
+    "validate": "node src/validate.js",
+    "test": "node --test",
+    "build": "node src/build.js",
+    "check:generated": "node src/build.js && git diff --exit-code -- dist/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": "https://github.com/BrowserPedia/open-browser-index"
+}

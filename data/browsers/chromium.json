@@ -1,0 +1,373 @@
+{
+  "slug": "chromium",
+  "name": "Chromium",
+  "canonicalUrl": "https://www.chromium.org/",
+  "publisher": "The Chromium Authors",
+  "country": "International",
+  "sourceId": "chromium",
+  "status": "active",
+  "statusNote": "Active upstream project; end-user packaging and support are distribution-dependent.",
+  "availability": {
+    "macos": {
+      "value": "partial",
+      "note": "Builds exist, but there is no single official consumer installer path.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "windows": {
+      "value": "partial",
+      "note": "Builds exist, but packaging is not equivalent to Chrome support.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Linux distributions commonly package Chromium.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Chromium is used as an Android open-source project, with distribution varying by vendor.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "iOS browser-engine rules prevent a normal Chromium distribution.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "cpuNotes": "Build and package support depend on the target and distributor.",
+    "installMethod": "Operating-system package, distribution build, or source build."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Open source under Chromium's collection of licenses",
+    "releaseChannel": "rolling",
+    "sourceRepository": "https://chromium.googlesource.com/chromium/src"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "Chromium upstream does not equal Chrome's service configuration; packaging determines telemetry.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unavailable",
+      "note": "No general tracker blocker is included upstream.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No broad hardened fingerprinting posture is claimed.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "privateWindows": "Incognito is a local privacy mode and does not anonymize network activity.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No browser VPN is included.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "partial",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "Manifest V2 support has been removed from current Chromium releases.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Chromium supports the current Manifest V3 model.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "limitations": "The upstream project does not promise Chrome Web Store account or policy integration.",
+    "nativeContentBlocking": {
+      "value": "unavailable",
+      "note": "No general content blocker is included upstream.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "The native vertical tab strip lives in the shared Chromium UI code.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Native Split View lives in the shared Chromium UI code.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "The Chromium side panel is a first-class UI surface.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Chromium reader mode is available in supported builds.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "sync": {
+      "value": "unavailable",
+      "note": "Chrome account sync is not an upstream Chromium guarantee.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "translation": {
+      "value": "unavailable",
+      "note": "Google translation is not an upstream guarantee.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Chromium web-app installation is supported.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "chromium"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "chromium"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "chromium"
+    ],
+    "availability": [
+      "chromium"
+    ],
+    "foundation": [
+      "chromium"
+    ],
+    "privacy": [
+      "chromium"
+    ],
+    "extensions": [
+      "chromium"
+    ],
+    "workflow": [
+      "chromium"
+    ],
+    "status": [
+      "chromium"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "chromium",
+      "label": "Chromium project home",
+      "url": "https://www.chromium.org/",
+      "verifiedAt": "2026-09-16",
+      "note": "Upstream project scope."
+    }
+  ]
+}

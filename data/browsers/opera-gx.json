@@ -1,0 +1,373 @@
+{
+  "slug": "opera-gx",
+  "name": "Opera GX",
+  "canonicalUrl": "https://www.opera.com/gx",
+  "publisher": "Opera Software",
+  "country": "Norway",
+  "sourceId": "opera-gx",
+  "status": "active",
+  "statusNote": "Actively developed as Opera's gaming-oriented browser.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS build.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows build.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux builds (deb/rpm, Flathub, and Snap) shipped in March 2026.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Official iOS app.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "cpuNotes": "Gaming features and platform support follow Opera GX requirements.",
+    "installMethod": "Official installer or app store."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Chromium open-source base with Opera proprietary UI and services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/operasoftware"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Opera documents analytics and personalization controls in its privacy policy.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Opera GX includes Opera's optional built-in ad blocker.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No broad hardened fingerprinting posture is claimed here.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "privateWindows": "Private windows limit local records but do not anonymize network traffic.",
+    "defaultSearchEngine": "Google",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Opera documents a browser VPN feature with scope limitations.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "available-by-extension",
+      "note": "Chromium extension compatibility changes with the release.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Manifest V3 is supported.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "limitations": "Chrome extension support does not remove Opera GX-specific service and UI differences.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Opera's native ad blocker is available.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Workspaces are a first-party Opera GX feature.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Native Split Screen is documented in GX.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "GX Corner and sidebar integrations are native.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "readerMode": {
+      "value": "available-by-extension",
+      "note": "Reader mode is available through an extension.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "commandPalette": {
+      "value": "built-in",
+      "note": "AI tab commands and Opera's command-line pattern are documented in GX.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Opera sync supports selected data.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Chromium web-app installation is supported.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; no non-WebKit build ships in the App Store.",
+    "sourceRefs": [
+      "opera-gx"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Opera AI provides a built-in assistant surface.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Opera AI documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "agenticActions": {
+      "value": "unknown",
+      "note": "Agentic actions are not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Opera AI documents AI-assisted answers in search or the address bar.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Opera AI documents text or image generation.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "modelChoice": {
+      "value": "built-in",
+      "note": "Opera AI documents a choice of models or local model support.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unknown",
+      "note": "AI privacy controls are not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Opera AI documents awareness of multiple tabs or history.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unknown",
+      "note": "Voice or image interaction is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "opera-gx"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "opera-gx"
+    ],
+    "availability": [
+      "opera-gx"
+    ],
+    "foundation": [
+      "opera-gx"
+    ],
+    "privacy": [
+      "opera-gx"
+    ],
+    "extensions": [
+      "opera-gx"
+    ],
+    "workflow": [
+      "opera-gx"
+    ],
+    "status": [
+      "opera-gx"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "opera-gx",
+      "label": "Opera GX official page",
+      "url": "https://www.opera.com/gx",
+      "verifiedAt": "2026-09-16",
+      "note": "Product and platform scope."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+name: Validate data
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run validate
+      - run: npm test
+      - run: npm run build
+      - name: Check generated catalog is current
+        run: git diff --exit-code -- dist/
+      - name: Check repository hygiene
+        run: git diff --check

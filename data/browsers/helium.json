@@ -1,0 +1,373 @@
+{
+  "slug": "helium",
+  "name": "Helium",
+  "canonicalUrl": "https://helium.computer/",
+  "publisher": "imput",
+  "country": "United States",
+  "sourceId": "helium",
+  "status": "experimental",
+  "statusNote": "Published as a beta by a small community project; interfaces and defaults are still changing.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS builds are published.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows builds are published.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Linux builds are published.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "android": {
+      "value": "unavailable",
+      "note": "No Android build is documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No iOS build is documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "cpuNotes": "Builds target current 64-bit desktop hardware.",
+    "installMethod": "Direct download from the project or its repository."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "ungoogled-chromium",
+    "codeLicense": "Open source project built on Chromium",
+    "releaseChannel": "beta",
+    "sourceRepository": "https://github.com/imputnet/helium"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "minimal-or-opt-in",
+      "note": "The project ships no analytics and makes no web requests on first launch; opt-in crash reporting is documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Blocking is enabled by default.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Fingerprint protections are documented as part of the build.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "privateWindows": "An incognito mode is available, inherited from the Chromium base.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest policy is not documented separately.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Chromium extension support is present.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "limitations": "Chrome Web Store installs work through Helium's anonymised proxy path; behavior can differ from stock Chrome.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Blocking is built into the build.",
+      "sourceRefs": [
+        "helium"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Vertical tab layout, docked left or right, has shipped since early 2026.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Native side-by-side split tabs are enabled by default.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Side-panel position is a first-class setting.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "sync": {
+      "value": "unavailable",
+      "note": "Google account sync is removed upstream.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation behaviour is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "helium"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "helium"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "helium"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "setAsDefault": {
+      "value": "not-applicable",
+      "note": "No mobile build is documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "helium"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "helium"
+    ],
+    "availability": [
+      "helium"
+    ],
+    "foundation": [
+      "helium"
+    ],
+    "privacy": [
+      "helium"
+    ],
+    "extensions": [
+      "helium"
+    ],
+    "workflow": [
+      "helium"
+    ],
+    "status": [
+      "helium"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "helium",
+      "label": "Helium browser official site",
+      "url": "https://helium.computer/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and privacy defaults."
+    }
+  ]
+}

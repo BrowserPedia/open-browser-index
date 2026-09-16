@@ -1,0 +1,373 @@
+{
+  "slug": "chrome",
+  "name": "Chrome",
+  "canonicalUrl": "https://www.google.com/chrome/",
+  "publisher": "Google",
+  "country": "United States",
+  "sourceId": "chrome",
+  "status": "active",
+  "statusNote": "Actively developed and distributed for major desktop platforms.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official Intel and Apple silicon builds.",
+      "sourceRefs": [
+        "missing-source"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows build.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux packages.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Official iOS app.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "cpuNotes": "Desktop builds have documented architecture-specific installers.",
+    "installMethod": "Official installer, package repositories, or app stores."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Chromium open-source components with Google-distributed proprietary services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://chromium.googlesource.com/chromium/src"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Usage statistics and diagnostics are controlled in Chrome settings.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "unavailable",
+      "note": "No general third-party tracker blocker is enabled by default.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Privacy controls include anti-fingerprinting-related settings, but not a hardened anonymity profile.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "privateWindows": "Incognito windows reduce local history but do not make browsing anonymous.",
+    "defaultSearchEngine": "Google",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No general browser VPN is included.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "Manifest V2 support has been removed from current Chrome channels.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Chrome extensions use the current Manifest V3 model.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "limitations": "Chrome Web Store policies and Manifest V3 API limits affect extension choices.",
+    "nativeContentBlocking": {
+      "value": "unavailable",
+      "note": "Use an extension for general content blocking.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "A native Show Tabs Vertically option rolled out to stable Chrome in 2026.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "A native Split View showing two pages side by side shipped in early 2026.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Chrome's side panel hosts reading mode, bookmarks, and tools; vertical tabs use a side rail.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Reading Mode is a native side-panel and full-page feature.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Sync is provided by the browser or its upstream project.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; no non-WebKit build ships in the App Store.",
+    "sourceRefs": [
+      "chrome"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Gemini in Chrome provides a built-in assistant surface.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Gemini in Chrome documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "agenticActions": {
+      "value": "built-in",
+      "note": "Gemini in Chrome documents multi-step actions taken on the user's behalf.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Gemini in Chrome documents AI-assisted answers in search or the address bar.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Gemini in Chrome documents text or image generation.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "modelChoice": {
+      "value": "unknown",
+      "note": "Model selection is not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unknown",
+      "note": "AI privacy controls are not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Gemini in Chrome documents awareness of multiple tabs or history.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Gemini in Chrome documents voice or image interaction.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "built-in",
+      "note": "Google documents a desktop site and default site view control on Android and iOS.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "biometricLock": {
+      "value": "built-in",
+      "note": "Android can lock Incognito windows when you leave Chrome.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "chrome"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "chrome"
+    ],
+    "availability": [
+      "chrome"
+    ],
+    "foundation": [
+      "chrome"
+    ],
+    "privacy": [
+      "chrome"
+    ],
+    "extensions": [
+      "chrome"
+    ],
+    "workflow": [
+      "chrome"
+    ],
+    "status": [
+      "chrome"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "chrome",
+      "label": "Chrome official product page",
+      "url": "not-a-url",
+      "verifiedAt": "not-a-date",
+      "note": "Product and platform scope."
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "slug": "uc-browser",
+  "name": "UC Browser",
+  "canonicalUrl": "https://www.ucweb.com/",
+  "publisher": "UCWeb",
+  "country": "China",
+  "sourceId": "uc-browser",
+  "status": "active",
+  "statusNote": "Still updated for Android, with a user base concentrated in Asian markets.",
+  "availability": {
+    "macos": {
+      "value": "unavailable",
+      "note": "No current macOS build is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "windows": {
+      "value": "unknown",
+      "note": "Desktop availability is not clearly documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "linux": {
+      "value": "unavailable",
+      "note": "No Linux build is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Distributed through app stores and direct download.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "ios": {
+      "value": "unknown",
+      "note": "Current iOS availability is not clearly documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "cpuNotes": "Historically optimised for low-specification Android hardware.",
+    "installMethod": "App store or direct download."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://www.ucweb.com/"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "No end-user telemetry posture is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "A built-in ad blocker is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting-resistance posture is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "privateWindows": "An incognito mode is available that does not retain local browsing history.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "A bundled VPN feature is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unavailable",
+      "note": "No extension platform is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "manifestV3": {
+      "value": "unavailable",
+      "note": "No extension platform is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "limitations": "There is no third-party extension platform; added capability comes from bundled features instead.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Ad blocking is built in.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "profiles": {
+      "value": "unavailable",
+      "note": "No profile system is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "sidebar": {
+      "value": "unavailable",
+      "note": "No documented native sidebar.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Cloud storage and sync features are documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Translation is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "pwa": {
+      "value": "unknown",
+      "note": "Progressive web app behaviour is not documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    }
+  },
+  "formFactor": "mobile",
+  "iosEngine": {
+    "value": "unknown",
+    "note": "Current iOS availability is not clearly documented, so the engine position cannot be stated.",
+    "sourceRefs": [
+      "uc-browser"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unknown",
+      "note": "Assistant features are not clearly documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "built-in",
+      "note": "Data-saving modes are documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unavailable",
+      "note": "No extension platform is documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Can be set as the Android default browser.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "downloadManager": {
+      "value": "built-in",
+      "note": "A download manager with media extraction is a headline feature.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "uc-browser"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "uc-browser"
+    ],
+    "availability": [
+      "uc-browser"
+    ],
+    "foundation": [
+      "uc-browser"
+    ],
+    "privacy": [
+      "uc-browser"
+    ],
+    "extensions": [
+      "uc-browser"
+    ],
+    "workflow": [
+      "uc-browser"
+    ],
+    "status": [
+      "uc-browser"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "uc-browser",
+      "label": "UC Browser official site",
+      "url": "https://www.ucweb.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope and platform availability."
+    }
+  ]
+}

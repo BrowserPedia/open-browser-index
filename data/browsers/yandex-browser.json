@@ -1,0 +1,373 @@
+{
+  "slug": "yandex-browser",
+  "name": "Yandex Browser",
+  "canonicalUrl": "https://browser.yandex.com/",
+  "publisher": "Yandex",
+  "country": "Russia",
+  "sourceId": "yandex-browser",
+  "status": "active",
+  "statusNote": "Actively developed with ongoing desktop and mobile releases.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS build published by Yandex.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows build published by Yandex.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Linux packages are published.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Distributed through app stores.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Distributed through the App Store.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "cpuNotes": "Desktop builds target 64-bit hardware.",
+    "installMethod": "Direct download from Yandex or platform app store."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Proprietary browser built on open-source Chromium",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://browser.yandex.com/"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unknown",
+      "note": "No end-user telemetry posture is documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Protection features against tracking are documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No fingerprinting-resistance posture is documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "privateWindows": "An incognito mode is available that does not retain local browsing history.",
+    "defaultSearchEngine": "Yandex",
+    "vpnOrProxy": {
+      "value": "unknown",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest version support is not documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Manifest version support is not documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "limitations": "Extension behaviour follows Chromium, but the vendor does not document manifest support separately.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Built-in blocking features are documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "A sidebar is documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Reader mode is documented with a keyboard shortcut and in web-app windows.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Account sync is documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Page translation and video dubbing are documented features.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; the shipping iOS build renders with WebKit.",
+    "sourceRefs": [
+      "yandex-browser"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "The Alice assistant is integrated.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Summarisation features are documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "agenticActions": {
+      "value": "built-in",
+      "note": "An Alice agent mode is documented booking, shopping, and researching on the user's behalf.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Assistant-backed answers are documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Alice text editing and in-browser image generation are documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Voice interaction is documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "built-in",
+      "note": "The Android app can install Chrome Web Store extensions.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "setAsDefault": {
+      "value": "built-in",
+      "note": "Can be set as the platform default browser.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "downloadManager": {
+      "value": "built-in",
+      "note": "A download manager is documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "yandex-browser"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "yandex-browser"
+    ],
+    "availability": [
+      "yandex-browser"
+    ],
+    "foundation": [
+      "yandex-browser"
+    ],
+    "privacy": [
+      "yandex-browser"
+    ],
+    "extensions": [
+      "yandex-browser"
+    ],
+    "workflow": [
+      "yandex-browser"
+    ],
+    "status": [
+      "yandex-browser"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "yandex-browser",
+      "label": "Yandex Browser official site",
+      "url": "https://browser.yandex.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product scope, platform availability, and feature naming."
+    }
+  ]
+}

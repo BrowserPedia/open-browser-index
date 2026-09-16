@@ -1,0 +1,373 @@
+{
+  "slug": "thorium",
+  "name": "Thorium",
+  "canonicalUrl": "https://thorium.rocks/",
+  "publisher": "Thorium project",
+  "country": "United States",
+  "sourceId": "thorium",
+  "status": "active",
+  "statusNote": "Maintained as a community project; release cadence depends on a small maintainer group.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "macOS builds are published.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Windows builds are published.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Linux builds are published, including legacy targets.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "android": {
+      "value": "partial",
+      "note": "Android builds are published but are secondary.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "No iOS build is documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "cpuNotes": "Builds are published for several instruction-set targets, including older hardware and Raspberry Pi.",
+    "installMethod": "Direct download from the project or its repository."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Open source under Chromium's licensing",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/Alex313031/thorium"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "minimal-or-opt-in",
+      "note": "The project documents reduced Google service integration and telemetry.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "available-by-extension",
+      "note": "Blocking is provided through extensions rather than by default.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No hardened fingerprinting posture is documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "privateWindows": "An incognito mode is available, inherited from the Chromium base.",
+    "defaultSearchEngine": "Configurable",
+    "vpnOrProxy": {
+      "value": "unavailable",
+      "note": "No bundled VPN is documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "unknown",
+      "note": "Manifest V2 policy is not documented separately from upstream Chromium.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Chromium extension support is present.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "limitations": "Extension behaviour follows upstream Chromium, including whatever manifest policy that version carries.",
+    "nativeContentBlocking": {
+      "value": "unavailable",
+      "note": "No native content blocker is bundled.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "unavailable",
+      "note": "No documented native vertical-tab mode.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "sidebar": {
+      "value": "unavailable",
+      "note": "No documented native sidebar.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "readerMode": {
+      "value": "unknown",
+      "note": "Reader mode is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "sync": {
+      "value": "unknown",
+      "note": "Sync depends on Google account integration that the build reduces.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation behaviour is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "thorium"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "No documented built-in AI assistant.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Android default-browser behaviour is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "thorium"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "thorium"
+    ],
+    "availability": [
+      "thorium"
+    ],
+    "foundation": [
+      "thorium"
+    ],
+    "privacy": [
+      "thorium"
+    ],
+    "extensions": [
+      "thorium"
+    ],
+    "workflow": [
+      "thorium"
+    ],
+    "status": [
+      "thorium"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "thorium",
+      "label": "Thorium browser project site",
+      "url": "https://thorium.rocks/",
+      "verifiedAt": "2026-09-16",
+      "note": "Project scope, build targets, and optimisation claims."
+    }
+  ]
+}

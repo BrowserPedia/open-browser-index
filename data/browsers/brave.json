@@ -1,0 +1,373 @@
+{
+  "slug": "brave",
+  "name": "Brave",
+  "canonicalUrl": "https://brave.com/browser/",
+  "publisher": "Brave Software",
+  "country": "United States",
+  "sourceId": "brave",
+  "status": "active",
+  "statusNote": "Actively developed with desktop and mobile releases.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS build.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows build.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux packages.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Official iOS app.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "cpuNotes": "Supported architecture depends on the platform release.",
+    "installMethod": "Official installer, package repository, or app store."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Open-source Chromium-derived browser with Brave proprietary services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://github.com/brave/brave-browser"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Brave documents privacy-preserving product analytics and opt-out controls.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Brave Shields blocks ads and trackers by default with configurable lists.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Shields includes fingerprinting protection modes.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "privateWindows": "Private windows omit local history; optional Tor windows route traffic through Tor but have distinct limitations.",
+    "defaultSearchEngine": "Brave Search",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Brave offers a paid VPN and a Tor-window mode in supported desktop releases.",
+      "sourceRefs": [
+        "brave"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "available-by-extension",
+      "note": "Compatibility follows Chromium's changing extension API support.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Manifest V3 is supported.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "limitations": "Chrome extensions generally work, but Brave Shields can alter extension or site behavior.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Shields is native and uses filter lists for content blocking.",
+      "sourceRefs": [
+        "brave"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Brave documents vertical tabs in its tab features.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "tabTrees": {
+      "value": "minimal-or-opt-in",
+      "note": "Tree Tabs ship behind a flag and a Tabs setting, off by default.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "A native Split View is documented in the tab menu.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Brave Sidebar provides pinned sites and browser tools.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Brave Reader Mode is built in.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Brave Sync synchronizes supported browser data without an account.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "A built-in translation feature is documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "brave"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; no non-WebKit build ships in the App Store.",
+    "sourceRefs": [
+      "brave"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Leo provides a built-in assistant surface.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Leo documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "agenticActions": {
+      "value": "minimal-or-opt-in",
+      "note": "Brave documents its browser agent as off by default and behind an opt-in feature flag.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Leo documents AI-assisted answers in search or the address bar.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Leo documents text or image generation.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "modelChoice": {
+      "value": "built-in",
+      "note": "Leo documents a choice of models or local model support.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "Leo documents retention, training or kill-switch controls.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Leo documents awareness of multiple tabs or history.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Leo documents voice or image interaction.",
+      "sourceRefs": [
+        "brave"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "brave"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "brave"
+    ],
+    "availability": [
+      "brave"
+    ],
+    "foundation": [
+      "brave"
+    ],
+    "privacy": [
+      "brave"
+    ],
+    "extensions": [
+      "brave"
+    ],
+    "workflow": [
+      "brave"
+    ],
+    "status": [
+      "brave"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "brave",
+      "label": "Brave official product page",
+      "url": "https://brave.com/browser/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product, blocking, and platform scope."
+    }
+  ]
+}

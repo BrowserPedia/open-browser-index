@@ -1,0 +1,373 @@
+{
+  "slug": "tor-browser",
+  "name": "Tor Browser",
+  "canonicalUrl": "https://www.torproject.org/download/",
+  "publisher": "The Tor Project",
+  "country": "United States",
+  "sourceId": "tor",
+  "status": "active",
+  "statusNote": "Actively maintained by the Tor Project with security-focused releases.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official desktop build.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official desktop build.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official desktop build.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "ios": {
+      "value": "unavailable",
+      "note": "The Tor Project does not publish Tor Browser for iOS.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "cpuNotes": "Use official downloads and verify signatures where practical.",
+    "installMethod": "Official signed download or Android app store."
+  },
+  "foundation": {
+    "renderingEngine": "gecko",
+    "javascriptEngine": "SpiderMonkey",
+    "upstreamProject": "Mozilla Firefox ESR",
+    "codeLicense": "Open source Firefox-derived project under MPL-compatible licensing",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://gitlab.torproject.org/tpo/applications/tor-browser"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "unavailable",
+      "note": "The Tor Project states it does not use tracking, telemetry, or analytics; leftover upstream telemetry code is disabled.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Tor Browser includes anti-tracking and isolation controls.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "built-in",
+      "note": "Letterboxing and standardization help reduce fingerprinting uniqueness.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "privateWindows": "Tor Browser windows use private-style behavior by default and route through Tor; Tor is not protection against every endpoint attack.",
+    "defaultSearchEngine": "DuckDuckGo",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Tor routing is the browser's defining network feature; it is not a VPN.",
+      "sourceRefs": [
+        "tor"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "unsupported",
+    "firefoxAddons": "partial",
+    "manifestV2": {
+      "value": "available-by-extension",
+      "note": "Only the bundled and compatible Firefox extension model should be assumed.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "manifestV3": {
+      "value": "unknown",
+      "note": "Do not infer ordinary Firefox extension compatibility from Tor Browser hardening.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "limitations": "Installing extra extensions can change fingerprinting and security properties and is discouraged unless understood.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "NoScript and other Tor configuration controls provide native anti-tracking behavior.",
+      "sourceRefs": [
+        "tor"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Tor Browser 15 on the Firefox ESR 140 base includes native vertical tabs and the updated sidebar.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "workspaces": {
+      "value": "unavailable",
+      "note": "No documented native workspaces.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "splitView": {
+      "value": "unavailable",
+      "note": "No documented native split-view mode.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "Firefox sidebar features remain available with Tor-specific constraints.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Firefox Reader View is available.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "sync": {
+      "value": "unavailable",
+      "note": "Account sync is intentionally not a standard Tor Browser workflow.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "translation": {
+      "value": "unknown",
+      "note": "Translation can affect fingerprinting and is not treated as a guaranteed feature.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "pwa": {
+      "value": "unavailable",
+      "note": "Installable web apps are not exposed on the ESR base Tor Browser ships.",
+      "sourceRefs": [
+        "tor"
+      ]
+    }
+  },
+  "formFactor": "desktop",
+  "iosEngine": {
+    "value": "not-applicable",
+    "note": "No iOS build is documented.",
+    "sourceRefs": [
+      "tor"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "unavailable",
+      "note": "Tor Browser documents removing Mozilla's AI features as un-auditable.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "summarization": {
+      "value": "unavailable",
+      "note": "No documented summarisation feature.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "agenticActions": {
+      "value": "unavailable",
+      "note": "No documented agentic browsing actions.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "aiSearch": {
+      "value": "unavailable",
+      "note": "No documented AI answer engine.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "contentGeneration": {
+      "value": "unavailable",
+      "note": "No documented generation feature.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "modelChoice": {
+      "value": "unavailable",
+      "note": "No documented model selection.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "unavailable",
+      "note": "No documented AI privacy controls.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "crossTabContext": {
+      "value": "unavailable",
+      "note": "No documented cross-tab context.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "unavailable",
+      "note": "No documented voice or image input.",
+      "sourceRefs": [
+        "tor"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "tor"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "tor"
+    ],
+    "availability": [
+      "tor"
+    ],
+    "foundation": [
+      "tor"
+    ],
+    "privacy": [
+      "tor"
+    ],
+    "extensions": [
+      "tor"
+    ],
+    "workflow": [
+      "tor"
+    ],
+    "status": [
+      "tor"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "tor",
+      "label": "Tor Browser download page",
+      "url": "https://www.torproject.org/download/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product, platform, and privacy scope."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "samsung-internet": {
+    "id": "samsung-internet",
+    "label": "Samsung Browser official site",
+    "url": "https://browser.samsung.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and privacy feature naming."
+  },
+  "duckduckgo": {
+    "id": "duckduckgo",
+    "label": "DuckDuckGo browser product and help pages",
+    "url": "https://duckduckgo.com/app",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and default protection claims."
+  },
+  "mullvad-browser": {
+    "id": "mullvad-browser",
+    "label": "Mullvad Browser official page",
+    "url": "https://mullvad.net/en/browser",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and anti-fingerprinting design."
+  },
+  "opera-mini": {
+    "id": "opera-mini",
+    "label": "Opera Mini official product page",
+    "url": "https://www.opera.com/mini",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and data-saving claims."
+  },
+  "yandex-browser": {
+    "id": "yandex-browser",
+    "label": "Yandex Browser official site",
+    "url": "https://browser.yandex.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and feature naming."
+  },
+  "uc-browser": {
+    "id": "uc-browser",
+    "label": "UC Browser official site",
+    "url": "https://www.ucweb.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope and platform availability."
+  },
+  "firefox-focus": {
+    "id": "firefox-focus",
+    "label": "Firefox Focus official product page",
+    "url": "https://www.firefox.com/en-US/mobile/focus/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and privacy defaults."
+  },
+  "pale-moon": {
+    "id": "pale-moon",
+    "label": "Pale Moon official site",
+    "url": "https://www.palemoon.org/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, engine identity, and extension model."
+  },
+  "comet": {
+    "id": "comet",
+    "label": "Perplexity Comet official page",
+    "url": "https://www.perplexity.ai/comet",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and assistant feature naming."
+  },
+  "helium": {
+    "id": "helium",
+    "label": "Helium browser official site",
+    "url": "https://helium.computer/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and privacy defaults."
+  },
+  "norton-neo": {
+    "id": "norton-neo",
+    "label": "Norton Neo official site",
+    "url": "https://neobrowser.ai/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and bundled protections."
+  },
+  "opera-air": {
+    "id": "opera-air",
+    "label": "Opera Air official page",
+    "url": "https://www.opera.com/air",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope and platform availability."
+  },
+  "opera-neon": {
+    "id": "opera-neon",
+    "label": "Opera Neon official page",
+    "url": "https://www.operaneon.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, subscription model, and agentic feature naming."
+  },
+  "shift": {
+    "id": "shift",
+    "label": "Shift browser official site",
+    "url": "https://shift.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope and workspace feature naming."
+  },
+  "sigmaos": {
+    "id": "sigmaos",
+    "label": "SigmaOS official site",
+    "url": "https://sigmaos.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope, platform availability, and workspace model."
+  },
+  "strawberry": {
+    "id": "strawberry",
+    "label": "Strawberry browser official site",
+    "url": "https://strawberrybrowser.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product scope and agentic feature naming."
+  },
+  "thorium": {
+    "id": "thorium",
+    "label": "Thorium browser project site",
+    "url": "https://thorium.rocks/",
+    "verifiedAt": "2026-09-16",
+    "note": "Project scope, build targets, and optimisation claims."
+  },
+  "kiwi": {
+    "id": "kiwi",
+    "label": "Kiwi Browser project repository",
+    "url": "https://github.com/kiwibrowser/src.next",
+    "verifiedAt": "2026-09-16",
+    "note": "Project scope, Android extension support, and maintenance status."
+  },
+  "chrome": {
+    "id": "chrome",
+    "label": "Chrome official product page",
+    "url": "https://www.google.com/chrome/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product and platform scope."
+  },
+  "edge": {
+    "id": "edge",
+    "label": "Microsoft Edge official site",
+    "url": "https://www.microsoft.com/edge",
+    "verifiedAt": "2026-09-16",
+    "note": "Product and platform scope."
+  },
+  "firefox": {
+    "id": "firefox",
+    "label": "Firefox official product page",
+    "url": "https://www.firefox.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product and platform scope."
+  },
+  "safari": {
+    "id": "safari",
+    "label": "Apple Safari product page",
+    "url": "https://www.apple.com/safari/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product and platform scope."
+  },
+  "brave": {
+    "id": "brave",
+    "label": "Brave official product page",
+    "url": "https://brave.com/browser/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product, blocking, and platform scope."
+  },
+  "vivaldi": {
+    "id": "vivaldi",
+    "label": "Vivaldi official features",
+    "url": "https://vivaldi.com/features/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product features and platform scope."
+  },
+  "opera": {
+    "id": "opera",
+    "label": "Opera official browser page",
+    "url": "https://www.opera.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product and platform scope."
+  },
+  "opera-gx": {
+    "id": "opera-gx",
+    "label": "Opera GX official page",
+    "url": "https://www.opera.com/gx",
+    "verifiedAt": "2026-09-16",
+    "note": "Product and platform scope."
+  },
+  "arc": {
+    "id": "arc",
+    "label": "Arc official help center",
+    "url": "https://resources.arc.net/hc/en-us",
+    "verifiedAt": "2026-09-16",
+    "note": "Product availability and workflow documentation."
+  },
+  "zen": {
+    "id": "zen",
+    "label": "Zen Browser official site",
+    "url": "https://zen-browser.app/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product, release channel, and platform scope."
+  },
+  "librewolf": {
+    "id": "librewolf",
+    "label": "LibreWolf official site",
+    "url": "https://librewolf.net/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product, hardening, and platform scope."
+  },
+  "floorp": {
+    "id": "floorp",
+    "label": "Floorp official site",
+    "url": "https://floorp.app/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product features and platform scope."
+  },
+  "waterfox": {
+    "id": "waterfox",
+    "label": "Waterfox official site",
+    "url": "https://www.waterfox.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product and platform scope."
+  },
+  "tor": {
+    "id": "tor",
+    "label": "Tor Browser download page",
+    "url": "https://www.torproject.org/download/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product, platform, and privacy scope."
+  },
+  "ungoogled": {
+    "id": "ungoogled",
+    "label": "ungoogled-chromium repository",
+    "url": "https://github.com/ungoogled-software/ungoogled-chromium",
+    "verifiedAt": "2026-09-16",
+    "note": "Project scope and distribution model."
+  },
+  "chromium": {
+    "id": "chromium",
+    "label": "Chromium project home",
+    "url": "https://www.chromium.org/",
+    "verifiedAt": "2026-09-16",
+    "note": "Upstream project scope."
+  },
+  "orion": {
+    "id": "orion",
+    "label": "Orion official product page",
+    "url": "https://browser.kagi.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product, platform, and extension scope."
+  },
+  "dia": {
+    "id": "dia",
+    "label": "Dia official product page",
+    "url": "https://www.diabrowser.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product availability and workflow scope."
+  },
+  "ladybird": {
+    "id": "ladybird",
+    "label": "Ladybird official site",
+    "url": "https://ladybird.org/",
+    "verifiedAt": "2026-09-16",
+    "note": "Experimental project status and scope."
+  }
+}

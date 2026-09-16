@@ -1,0 +1,373 @@
+{
+  "slug": "edge",
+  "name": "Microsoft Edge",
+  "canonicalUrl": "https://www.microsoft.com/edge",
+  "publisher": "Microsoft",
+  "country": "United States",
+  "sourceId": "edge",
+  "status": "active",
+  "statusNote": "Actively developed with stable desktop and mobile releases.",
+  "availability": {
+    "macos": {
+      "value": "available",
+      "note": "Official macOS build.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "windows": {
+      "value": "available",
+      "note": "Official Windows build.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "linux": {
+      "value": "available",
+      "note": "Official Linux build.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "android": {
+      "value": "available",
+      "note": "Official Android app.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "ios": {
+      "value": "available",
+      "note": "Official iOS app.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "cpuNotes": "Availability varies by operating-system release and architecture.",
+    "installMethod": "Official installer or app store."
+  },
+  "foundation": {
+    "renderingEngine": "chromium",
+    "javascriptEngine": "V8",
+    "upstreamProject": "Chromium",
+    "codeLicense": "Chromium open-source components with Microsoft proprietary services",
+    "releaseChannel": "stable",
+    "sourceRepository": "https://chromium.googlesource.com/chromium/src"
+  },
+  "privacy": {
+    "telemetry": {
+      "value": "built-in",
+      "note": "Diagnostic data and personalization controls are documented in Edge settings.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "trackerBlocking": {
+      "value": "built-in",
+      "note": "Tracking Prevention is built in with Basic, Balanced, and Strict modes.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "fingerprintingProtections": {
+      "value": "unknown",
+      "note": "No broad hardened fingerprinting posture is claimed here.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "privateWindows": "InPrivate limits local records; it does not provide network anonymity.",
+    "defaultSearchEngine": "Bing",
+    "vpnOrProxy": {
+      "value": "built-in",
+      "note": "Edge documents a limited Secure Network feature in supported contexts.",
+      "sourceRefs": [
+        "edge"
+      ]
+    }
+  },
+  "extensions": {
+    "chromeWebStore": "supported",
+    "firefoxAddons": "unsupported",
+    "manifestV2": {
+      "value": "minimal-or-opt-in",
+      "note": "Consumer Manifest V2 support is being disabled in phases from August 2026, with enterprise policy support ending in early 2027.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "manifestV3": {
+      "value": "built-in",
+      "note": "Manifest V3 is supported.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "limitations": "Some Chrome extensions may need explicit permission to install from the Chrome Web Store.",
+    "nativeContentBlocking": {
+      "value": "built-in",
+      "note": "Tracking Prevention blocks categories of trackers, not every ad or tracker.",
+      "sourceRefs": [
+        "edge"
+      ]
+    }
+  },
+  "workflow": {
+    "verticalTabs": {
+      "value": "built-in",
+      "note": "Vertical tabs are a documented Edge feature.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "tabTrees": {
+      "value": "unavailable",
+      "note": "No documented native tab-tree mode.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "workspaces": {
+      "value": "built-in",
+      "note": "Edge Workspaces organize tabs and projects.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "profiles": {
+      "value": "built-in",
+      "note": "Profiles or equivalent browser identities are available.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "splitView": {
+      "value": "built-in",
+      "note": "Microsoft documents split screen: two side-by-side pages inside one tab.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "sidebar": {
+      "value": "built-in",
+      "note": "The Edge sidebar hosts tools and sites.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "readerMode": {
+      "value": "built-in",
+      "note": "Immersive Reader is a first-party feature from the address bar.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "commandPalette": {
+      "value": "unavailable",
+      "note": "No documented command palette.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "sync": {
+      "value": "built-in",
+      "note": "Sync is provided by the browser or its upstream project.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "translation": {
+      "value": "built-in",
+      "note": "Microsoft Translator integration is documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "pwa": {
+      "value": "built-in",
+      "note": "Progressive web apps are supported by the Chromium install flow.",
+      "sourceRefs": [
+        "edge"
+      ]
+    }
+  },
+  "formFactor": "cross-platform",
+  "iosEngine": {
+    "value": "own-engine-permitted-not-shipped",
+    "note": "Apple permits alternative engines in the EU and Japan under entitlement; no non-WebKit build ships in the App Store.",
+    "sourceRefs": [
+      "edge"
+    ]
+  },
+  "ai": {
+    "assistant": {
+      "value": "built-in",
+      "note": "Copilot provides a built-in assistant surface.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "summarization": {
+      "value": "built-in",
+      "note": "Copilot documents page or multi-tab summarisation.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "agenticActions": {
+      "value": "built-in",
+      "note": "Microsoft documents Copilot clicking, typing, and navigating tabs; consumer availability is gated to Microsoft 365 Premium subscribers in the United States.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "aiSearch": {
+      "value": "built-in",
+      "note": "Copilot documents AI-assisted answers in search or the address bar.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "contentGeneration": {
+      "value": "built-in",
+      "note": "Copilot documents text or image generation.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "modelChoice": {
+      "value": "unknown",
+      "note": "Model selection is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "aiPrivacyControls": {
+      "value": "built-in",
+      "note": "Copilot documents retention, training or kill-switch controls.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "crossTabContext": {
+      "value": "built-in",
+      "note": "Copilot documents awareness of multiple tabs or history.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "voiceMultimodal": {
+      "value": "built-in",
+      "note": "Copilot documents voice or image interaction.",
+      "sourceRefs": [
+        "edge"
+      ]
+    }
+  },
+  "mobile": {
+    "dataSaver": {
+      "value": "unknown",
+      "note": "No documented data-saving or compression mode.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "mobileExtensions": {
+      "value": "unknown",
+      "note": "Extension support on mobile is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "setAsDefault": {
+      "value": "unknown",
+      "note": "Default-browser capability is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "desktopSiteMode": {
+      "value": "unknown",
+      "note": "Desktop-site mode is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "downloadManager": {
+      "value": "unknown",
+      "note": "A built-in download manager is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "offlineReading": {
+      "value": "unknown",
+      "note": "Offline reading is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "addressBarPosition": {
+      "value": "unknown",
+      "note": "Address-bar placement is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "biometricLock": {
+      "value": "unknown",
+      "note": "Biometric locking is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "backgroundMedia": {
+      "value": "unknown",
+      "note": "Background or picture-in-picture playback is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    },
+    "webPush": {
+      "value": "unknown",
+      "note": "Web push support is not documented.",
+      "sourceRefs": [
+        "edge"
+      ]
+    }
+  },
+  "evidence": {
+    "identity": [
+      "edge"
+    ],
+    "availability": [
+      "edge"
+    ],
+    "foundation": [
+      "edge"
+    ],
+    "privacy": [
+      "edge"
+    ],
+    "extensions": [
+      "edge"
+    ],
+    "workflow": [
+      "edge"
+    ],
+    "status": [
+      "edge"
+    ]
+  },
+  "firstPublished": "2026-02-01",
+  "verifiedAt": "2026-09-16",
+  "sources": [
+    {
+      "id": "edge",
+      "label": "Microsoft Edge official site",
+      "url": "https://www.microsoft.com/edge",
+      "verifiedAt": "2026-09-16",
+      "note": "Product and platform scope."
+    }
+  ]
+}
