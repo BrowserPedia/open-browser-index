@@ -377,6 +377,423 @@
       ]
     },
     {
+      "slug": "blanc",
+      "name": "Blanc",
+      "canonicalUrl": "https://blancbrowser.com/",
+      "publisher": "Bananify",
+      "country": "United States",
+      "sourceId": "blanc",
+      "status": "active",
+      "statusNote": "Actively developed, with stable desktop releases distributed through GitHub Releases.",
+      "availability": {
+        "macos": {
+          "value": "available",
+          "note": "A signed and notarized Apple Silicon macOS build is published.",
+          "sourceRefs": [
+            "blanc-download",
+            "blanc-release-v1.17.0"
+          ]
+        },
+        "windows": {
+          "value": "available",
+          "note": "A signed Windows NSIS installer is published.",
+          "sourceRefs": [
+            "blanc-download",
+            "blanc-release-v1.17.0"
+          ]
+        },
+        "linux": {
+          "value": "available",
+          "note": "A Linux AppImage is published.",
+          "sourceRefs": [
+            "blanc-download",
+            "blanc-release-v1.17.0"
+          ]
+        },
+        "android": {
+          "value": "unavailable",
+          "note": "No Android release is published; the official privacy policy says mobile is still in development.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "ios": {
+          "value": "unavailable",
+          "note": "No iOS release is published; the official privacy policy says mobile is still in development.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "cpuNotes": "The v1.17.0 release provides an Apple Silicon macOS build and 64-bit Windows and Linux builds.",
+        "installMethod": "Direct download from the official site or GitHub Releases."
+      },
+      "foundation": {
+        "renderingEngine": "chromium",
+        "javascriptEngine": "V8",
+        "upstreamProject": "Electron and Chromium",
+        "codeLicense": "MIT for Bananify-owned code, with separately licensed third-party material and reserved trademarks",
+        "releaseChannel": "stable",
+        "sourceRepository": "https://github.com/bnfy/blanc"
+      },
+      "privacy": {
+        "telemetry": {
+          "value": "minimal-or-opt-in",
+          "note": "Pseudonymous usage measurement is presented on during first-run setup, cannot send before the choice is saved, and can be disabled before continuing or later in Settings.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "trackerBlocking": {
+          "value": "built-in",
+          "note": "Hash-pinned EasyList and EasyPrivacy snapshots power built-in network and cosmetic blocking.",
+          "sourceRefs": [
+            "blanc-privacy",
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "fingerprintingProtections": {
+          "value": "unknown",
+          "note": "Blanc does not document a general anti-fingerprinting mode or claim to block every fingerprinting technique.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "privateWindows": "Private tabs share a separate non-persistent session for the app run and are excluded from history, session restore, reopen-closed-tab, and Profile Sync.",
+        "defaultSearchEngine": "DuckDuckGo by default; Google, Bing, and Brave Search are configurable alternatives",
+        "vpnOrProxy": {
+          "value": "unavailable",
+          "note": "Blanc documents that it connects directly to sites and does not proxy or anonymize browsing traffic.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        }
+      },
+      "extensions": {
+        "chromeWebStore": "unsupported",
+        "firefoxAddons": "unsupported",
+        "manifestV2": {
+          "value": "unavailable",
+          "note": "Blanc deliberately ships no browser-extension runtime.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "manifestV3": {
+          "value": "unavailable",
+          "note": "Blanc deliberately ships no browser-extension runtime.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "limitations": "No browser extensions are supported. The optional macOS 1Password SDK integration is narrow and is not an extension runtime.",
+        "nativeContentBlocking": {
+          "value": "built-in",
+          "note": "Ad and tracker blocking runs in the browser session rather than through an extension.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        }
+      },
+      "workflow": {
+        "verticalTabs": {
+          "value": "built-in",
+          "note": "An optional resizable vertical tab rail is built in.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "tabTrees": {
+          "value": "unknown",
+          "note": "No tree-style tab hierarchy is documented; named flat tab groups are a separate feature.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "workspaces": {
+          "value": "built-in",
+          "note": "Named Workspaces save and restore named sets of tabs and groups; creating one requires an active Blanc Patron subscription.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "profiles": {
+          "value": "built-in",
+          "note": "Named local profiles isolate site data, history, Favorites, downloads, and remembered permissions.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "splitView": {
+          "value": "built-in",
+          "note": "Glance displays a second current-window tab beside the main page as a temporary reference.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "sidebar": {
+          "value": "built-in",
+          "note": "The optional vertical tab rail provides a left-side tab surface.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "readerMode": {
+          "value": "unknown",
+          "note": "A built-in reader mode is not documented.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "commandPalette": {
+          "value": "built-in",
+          "note": "The Island command palette supports navigation, search, tab switching, and slash commands.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "sync": {
+          "value": "built-in",
+          "note": "Optional end-to-end-encrypted Profile Sync covers Favorites and eligible settings; open-tab sharing is separately opt-in.",
+          "sourceRefs": [
+            "blanc-privacy",
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "translation": {
+          "value": "unknown",
+          "note": "Built-in page translation is not documented.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "pwa": {
+          "value": "unknown",
+          "note": "A web-app installation flow is not documented.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        }
+      },
+      "formFactor": "desktop",
+      "iosEngine": {
+        "value": "not-applicable",
+        "note": "No iOS build is published.",
+        "sourceRefs": [
+          "blanc-privacy"
+        ]
+      },
+      "ai": {
+        "assistant": {
+          "value": "unavailable",
+          "note": "Blanc ships no built-in AI assistant.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "summarization": {
+          "value": "unavailable",
+          "note": "Blanc ships no built-in AI summarization feature.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "agenticActions": {
+          "value": "unavailable",
+          "note": "Blanc is not an agent browser and ships no agentic browsing actions.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "aiSearch": {
+          "value": "unavailable",
+          "note": "Blanc ships no AI answer engine.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "contentGeneration": {
+          "value": "unavailable",
+          "note": "Blanc ships no built-in AI content generation.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "modelChoice": {
+          "value": "not-applicable",
+          "note": "Blanc has no built-in AI models to select.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "aiPrivacyControls": {
+          "value": "not-applicable",
+          "note": "Blanc has no built-in AI features requiring AI-specific privacy controls.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "crossTabContext": {
+          "value": "unavailable",
+          "note": "Blanc does not give an AI system cross-tab context.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        },
+        "voiceMultimodal": {
+          "value": "unavailable",
+          "note": "Blanc ships no built-in voice or multimodal AI interface.",
+          "sourceRefs": [
+            "blanc-readme-v1.17.0"
+          ]
+        }
+      },
+      "mobile": {
+        "dataSaver": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "mobileExtensions": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "setAsDefault": {
+          "value": "not-applicable",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "desktopSiteMode": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "downloadManager": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "offlineReading": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "addressBarPosition": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "biometricLock": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "backgroundMedia": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        },
+        "webPush": {
+          "value": "unknown",
+          "note": "No mobile build is published.",
+          "sourceRefs": [
+            "blanc-privacy"
+          ]
+        }
+      },
+      "evidence": {
+        "identity": [
+          "blanc",
+          "blanc-privacy"
+        ],
+        "availability": [
+          "blanc-download",
+          "blanc-privacy",
+          "blanc-release-v1.17.0"
+        ],
+        "foundation": [
+          "blanc-readme-v1.17.0"
+        ],
+        "privacy": [
+          "blanc-privacy",
+          "blanc-readme-v1.17.0"
+        ],
+        "extensions": [
+          "blanc-readme-v1.17.0"
+        ],
+        "workflow": [
+          "blanc-readme-v1.17.0"
+        ],
+        "status": [
+          "blanc-release-v1.17.0"
+        ]
+      },
+      "firstPublished": "2026-08-02",
+      "verifiedAt": "2026-09-16",
+      "sources": [
+        {
+          "id": "blanc",
+          "label": "Blanc Browser official site",
+          "url": "https://blancbrowser.com/",
+          "verifiedAt": "2026-09-16",
+          "note": "Product identity and scope."
+        },
+        {
+          "id": "blanc-download",
+          "label": "Blanc Browser download page",
+          "url": "https://blancbrowser.com/download",
+          "verifiedAt": "2026-09-16",
+          "note": "Desktop platform availability, install methods, and release-signing scope."
+        },
+        {
+          "id": "blanc-privacy",
+          "label": "Blanc Browser privacy policy",
+          "url": "https://blancbrowser.com/privacy",
+          "verifiedAt": "2026-09-16",
+          "note": "Publisher location, desktop and mobile scope, private tabs, usage measurement, sync, blocking, and direct network behavior."
+        },
+        {
+          "id": "blanc-readme-v1.17.0",
+          "label": "Blanc Browser v1.17.0 source and project documentation",
+          "url": "https://github.com/bnfy/blanc/blob/v1.17.0/README.md",
+          "verifiedAt": "2026-09-16",
+          "note": "Foundation, license boundaries, extensions, workflow features, privacy scope, and absence of built-in AI."
+        },
+        {
+          "id": "blanc-release-v1.0.0",
+          "label": "Blanc Browser v1.0.0 release",
+          "url": "https://github.com/bnfy/blanc/releases/tag/v1.0.0",
+          "verifiedAt": "2026-09-16",
+          "note": "First stable public release date."
+        },
+        {
+          "id": "blanc-release-v1.17.0",
+          "label": "Blanc Browser v1.17.0 release",
+          "url": "https://github.com/bnfy/blanc/releases/tag/v1.17.0",
+          "verifiedAt": "2026-09-16",
+          "note": "Current stable release status and published desktop artifacts."
+        }
+      ]
+    },
+    {
       "slug": "brave",
       "name": "Brave",
       "canonicalUrl": "https://brave.com/browser/",
@@ -13812,6 +14229,48 @@
       "url": "https://resources.arc.net/hc/en-us",
       "verifiedAt": "2026-09-16",
       "note": "Product availability and workflow documentation."
+    },
+    "blanc": {
+      "id": "blanc",
+      "label": "Blanc Browser official site",
+      "url": "https://blancbrowser.com/",
+      "verifiedAt": "2026-09-16",
+      "note": "Product identity and scope."
+    },
+    "blanc-download": {
+      "id": "blanc-download",
+      "label": "Blanc Browser download page",
+      "url": "https://blancbrowser.com/download",
+      "verifiedAt": "2026-09-16",
+      "note": "Desktop platform availability, install methods, and release-signing scope."
+    },
+    "blanc-privacy": {
+      "id": "blanc-privacy",
+      "label": "Blanc Browser privacy policy",
+      "url": "https://blancbrowser.com/privacy",
+      "verifiedAt": "2026-09-16",
+      "note": "Publisher location, desktop and mobile scope, private tabs, usage measurement, sync, blocking, and direct network behavior."
+    },
+    "blanc-readme-v1.17.0": {
+      "id": "blanc-readme-v1.17.0",
+      "label": "Blanc Browser v1.17.0 source and project documentation",
+      "url": "https://github.com/bnfy/blanc/blob/v1.17.0/README.md",
+      "verifiedAt": "2026-09-16",
+      "note": "Foundation, license boundaries, extensions, workflow features, privacy scope, and absence of built-in AI."
+    },
+    "blanc-release-v1.0.0": {
+      "id": "blanc-release-v1.0.0",
+      "label": "Blanc Browser v1.0.0 release",
+      "url": "https://github.com/bnfy/blanc/releases/tag/v1.0.0",
+      "verifiedAt": "2026-09-16",
+      "note": "First stable public release date."
+    },
+    "blanc-release-v1.17.0": {
+      "id": "blanc-release-v1.17.0",
+      "label": "Blanc Browser v1.17.0 release",
+      "url": "https://github.com/bnfy/blanc/releases/tag/v1.17.0",
+      "verifiedAt": "2026-09-16",
+      "note": "Current stable release status and published desktop artifacts."
     },
     "brave": {
       "id": "brave",

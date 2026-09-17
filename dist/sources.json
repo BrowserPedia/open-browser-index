@@ -6,6 +6,48 @@
     "verifiedAt": "2026-09-16",
     "note": "Product availability and workflow documentation."
   },
+  "blanc": {
+    "id": "blanc",
+    "label": "Blanc Browser official site",
+    "url": "https://blancbrowser.com/",
+    "verifiedAt": "2026-09-16",
+    "note": "Product identity and scope."
+  },
+  "blanc-download": {
+    "id": "blanc-download",
+    "label": "Blanc Browser download page",
+    "url": "https://blancbrowser.com/download",
+    "verifiedAt": "2026-09-16",
+    "note": "Desktop platform availability, install methods, and release-signing scope."
+  },
+  "blanc-privacy": {
+    "id": "blanc-privacy",
+    "label": "Blanc Browser privacy policy",
+    "url": "https://blancbrowser.com/privacy",
+    "verifiedAt": "2026-09-16",
+    "note": "Publisher location, desktop and mobile scope, private tabs, usage measurement, sync, blocking, and direct network behavior."
+  },
+  "blanc-readme-v1.17.0": {
+    "id": "blanc-readme-v1.17.0",
+    "label": "Blanc Browser v1.17.0 source and project documentation",
+    "url": "https://github.com/bnfy/blanc/blob/v1.17.0/README.md",
+    "verifiedAt": "2026-09-16",
+    "note": "Foundation, license boundaries, extensions, workflow features, privacy scope, and absence of built-in AI."
+  },
+  "blanc-release-v1.0.0": {
+    "id": "blanc-release-v1.0.0",
+    "label": "Blanc Browser v1.0.0 release",
+    "url": "https://github.com/bnfy/blanc/releases/tag/v1.0.0",
+    "verifiedAt": "2026-09-16",
+    "note": "First stable public release date."
+  },
+  "blanc-release-v1.17.0": {
+    "id": "blanc-release-v1.17.0",
+    "label": "Blanc Browser v1.17.0 release",
+    "url": "https://github.com/bnfy/blanc/releases/tag/v1.17.0",
+    "verifiedAt": "2026-09-16",
+    "note": "Current stable release status and published desktop artifacts."
+  },
   "brave": {
     "id": "brave",
     "label": "Brave official product page",
