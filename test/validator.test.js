@@ -10,9 +10,9 @@ const browserFiles = (await readdir(join(root, "data", "browsers"))).filter((fil
 const browsers = await Promise.all(browserFiles.map(async (file) => JSON.parse(await readFile(join(root, "data", "browsers", file), "utf8"))));
 const sources = JSON.parse(await readFile(join(root, "data", "sources.json"), "utf8"));
 
-test("the initial catalog has all 37 factual browser records", () => {
-  assert.equal(browsers.length, 37);
-  assert.equal(Object.keys(sources).length, 37);
+test("the catalog has all 38 factual browser records", () => {
+  assert.equal(browsers.length, 38);
+  assert.equal(Object.keys(sources).length, 43);
   assert.deepEqual(validateDataset({ browsers, sources, browserFiles }), []);
 });
 
