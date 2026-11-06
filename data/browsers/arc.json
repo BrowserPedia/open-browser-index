@@ -5,19 +5,19 @@
   "publisher": "The Browser Company",
   "country": "United States",
   "sourceId": "arc",
-  "status": "maintenance-mode",
-  "statusNote": "The Browser Company states on the Arc download page that Arc receives Chromium updates only and directs users to Dia for active security patches; builds remain downloadable.",
+  "status": "discontinued",
+  "statusNote": "The Browser Company announced on October 22, 2026 that Arc shuts down on December 22, 2026: new accounts are closed, Arc Search loses sign-in, sync, and AI features on November 23, and the desktop app stops opening on macOS and Windows after December 22. Users are pointed to Dia, and the latest build includes a full data export.",
   "availability": {
     "macos": {
-      "value": "available",
-      "note": "Official macOS build.",
+      "value": "partial",
+      "note": "Existing installs run until December 22, 2026; new Arc accounts closed on October 22, 2026.",
       "sourceRefs": [
         "arc"
       ]
     },
     "windows": {
-      "value": "available",
-      "note": "Official Windows build.",
+      "value": "partial",
+      "note": "Existing installs run until December 22, 2026; new Arc accounts closed on October 22, 2026.",
       "sourceRefs": [
         "arc"
       ]
@@ -30,15 +30,15 @@
       ]
     },
     "android": {
-      "value": "available",
-      "note": "Arc Search is available on Android, but is a distinct mobile product experience.",
+      "value": "partial",
+      "note": "Arc Search is a distinct mobile product; its sign-in, sync, and AI features end on November 23, 2026.",
       "sourceRefs": [
         "arc"
       ]
     },
     "ios": {
-      "value": "available",
-      "note": "Arc Search is available on iOS, but is a distinct mobile product experience.",
+      "value": "partial",
+      "note": "Arc Search is a distinct mobile product; its sign-in, sync, and AI features end on November 23, 2026.",
       "sourceRefs": [
         "arc"
       ]

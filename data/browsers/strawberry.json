@@ -5,8 +5,8 @@
   "publisher": "Strawberry",
   "country": "Sweden",
   "sourceId": "strawberry",
-  "status": "experimental",
-  "statusNote": "In open beta with a credit-based commercial model and rapidly changing capabilities.",
+  "status": "active",
+  "statusNote": "Generally available, with version 1.0 launching on 26 October 2026. A free plan includes 500 credits a month without a payment card.",
   "availability": {
     "macos": {
       "value": "available",
@@ -44,14 +44,14 @@
       ]
     },
     "cpuNotes": "Desktop builds target current 64-bit hardware.",
-    "installMethod": "Direct download from the vendor with an account."
+    "installMethod": "Standalone desktop app downloaded directly from the vendor; an account is required, but the free plan needs no payment card."
   },
   "foundation": {
     "renderingEngine": "chromium",
     "javascriptEngine": "V8",
     "upstreamProject": "Chromium",
     "codeLicense": "Proprietary",
-    "releaseChannel": "beta",
+    "releaseChannel": "stable",
     "sourceRepository": "https://strawberrybrowser.com/"
   },
   "privacy": {
@@ -366,8 +366,8 @@
       "id": "strawberry",
       "label": "Strawberry browser official site",
       "url": "https://strawberrybrowser.com/",
-      "verifiedAt": "2026-09-16",
-      "note": "Product scope and agentic feature naming."
+      "verifiedAt": "2026-10-25",
+      "note": "Product scope, agentic feature naming, general availability, and free-plan terms (confirmed by the Strawberry team on 2026-10-25)."
     }
   ]
 }

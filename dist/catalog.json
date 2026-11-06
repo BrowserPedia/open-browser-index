@@ -10,19 +10,19 @@
       "publisher": "The Browser Company",
       "country": "United States",
       "sourceId": "arc",
-      "status": "maintenance-mode",
-      "statusNote": "The Browser Company states on the Arc download page that Arc receives Chromium updates only and directs users to Dia for active security patches; builds remain downloadable.",
+      "status": "discontinued",
+      "statusNote": "The Browser Company announced on October 22, 2026 that Arc shuts down on December 22, 2026: new accounts are closed, Arc Search loses sign-in, sync, and AI features on November 23, and the desktop app stops opening on macOS and Windows after December 22. Users are pointed to Dia, and the latest build includes a full data export.",
       "availability": {
         "macos": {
-          "value": "available",
-          "note": "Official macOS build.",
+          "value": "partial",
+          "note": "Existing installs run until December 22, 2026; new Arc accounts closed on October 22, 2026.",
           "sourceRefs": [
             "arc"
           ]
         },
         "windows": {
-          "value": "available",
-          "note": "Official Windows build.",
+          "value": "partial",
+          "note": "Existing installs run until December 22, 2026; new Arc accounts closed on October 22, 2026.",
           "sourceRefs": [
             "arc"
           ]
@@ -35,15 +35,15 @@
           ]
         },
         "android": {
-          "value": "available",
-          "note": "Arc Search is available on Android, but is a distinct mobile product experience.",
+          "value": "partial",
+          "note": "Arc Search is a distinct mobile product; its sign-in, sync, and AI features end on November 23, 2026.",
           "sourceRefs": [
             "arc"
           ]
         },
         "ios": {
-          "value": "available",
-          "note": "Arc Search is available on iOS, but is a distinct mobile product experience.",
+          "value": "partial",
+          "note": "Arc Search is a distinct mobile product; its sign-in, sync, and AI features end on November 23, 2026.",
           "sourceRefs": [
             "arc"
           ]
@@ -10454,8 +10454,8 @@
       "publisher": "Strawberry",
       "country": "Sweden",
       "sourceId": "strawberry",
-      "status": "experimental",
-      "statusNote": "In open beta with a credit-based commercial model and rapidly changing capabilities.",
+      "status": "active",
+      "statusNote": "Generally available, with version 1.0 launching on 26 October 2026. A free plan includes 500 credits a month without a payment card.",
       "availability": {
         "macos": {
           "value": "available",
@@ -10493,14 +10493,14 @@
           ]
         },
         "cpuNotes": "Desktop builds target current 64-bit hardware.",
-        "installMethod": "Direct download from the vendor with an account."
+        "installMethod": "Standalone desktop app downloaded directly from the vendor; an account is required, but the free plan needs no payment card."
       },
       "foundation": {
         "renderingEngine": "chromium",
         "javascriptEngine": "V8",
         "upstreamProject": "Chromium",
         "codeLicense": "Proprietary",
-        "releaseChannel": "beta",
+        "releaseChannel": "stable",
         "sourceRepository": "https://strawberrybrowser.com/"
       },
       "privacy": {
@@ -10815,8 +10815,8 @@
           "id": "strawberry",
           "label": "Strawberry browser official site",
           "url": "https://strawberrybrowser.com/",
-          "verifiedAt": "2026-09-16",
-          "note": "Product scope and agentic feature naming."
+          "verifiedAt": "2026-10-25",
+          "note": "Product scope, agentic feature naming, general availability, and free-plan terms (confirmed by the Strawberry team on 2026-10-25)."
         }
       ]
     },
@@ -14006,8 +14006,8 @@
       "id": "strawberry",
       "label": "Strawberry browser official site",
       "url": "https://strawberrybrowser.com/",
-      "verifiedAt": "2026-09-16",
-      "note": "Product scope and agentic feature naming."
+      "verifiedAt": "2026-10-25",
+      "note": "Product scope, agentic feature naming, general availability, and free-plan terms (confirmed by the Strawberry team on 2026-10-25)."
     },
     "thorium": {
       "id": "thorium",
